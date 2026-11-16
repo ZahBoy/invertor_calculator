@@ -173,3 +173,19 @@ def evaluate(choice, budget):
 
     failure = failure_probability(choice.reliability, choice.units)
     return Option(choice, failure, failure * choice.spent, budget)
+
+def shown_options(options):
+    """Варіанти 2 і 3 — той самий інвертор: лишаємо один, із меншим ризиком."""
+    if len(options) < 3:
+        return options, False
+    a, b = options[1].choice, options[2].choice
+    if a.name == "Noname" or a.name != b.name:
+        return options, False
+    kept = options[1] if options[1].risk <= options[2].risk else options[2]
+    return [options[0], kept], True
+
+
+def ranks(count):
+    if count <= 1:
+        return ["best"] * count
+    return ["best"] + ["mid"] * (count - 2) + ["worst"]
