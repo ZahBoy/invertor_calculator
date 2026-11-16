@@ -38,3 +38,13 @@ def parse_number(value):
         return None
     return float(text.replace(",", "."))
 
+def parse_reliability(value):
+    number = parse_number(value)
+    if number is None:
+        return None
+    if 1.0 < number <= 100.0:
+        number /= 100.0
+    if not 0.0 < number <= 1.0:
+        raise ValueError(number)
+    return number
+
