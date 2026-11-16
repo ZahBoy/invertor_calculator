@@ -1,11 +1,20 @@
 import csv
 import html
+import webbrowser
+from http.server import BaseHTTPRequestHandler, HTTPServer
+from urllib.parse import parse_qs
+
 
 FILE_24 = "data/Invertor_24V.csv"
 FILE_48 = "data/Invertor_48V.csv"
 TEMPLATES = "template/"
 HORIZON = 5
+HOST, PORT = "127.0.0.1", 8000
 CATALOG = []
+COLORS = {1: "#010101", 2: "#F17B77", 3: "#64A587"}
+MUTED = "#5E5A57"
+GRID = "#EBCFC2"
+RANK_TEXT = {"best": "найкращий", "mid": "проміжний", "worst": "найгірший"}
 
 
 
@@ -232,7 +241,6 @@ def calculate(band: int | None, budget: int, rows: list[dict]) -> dict:
         ],
     }
 
-CATALOG = load_catalog()
 
 #Побудова графіка(ШІ)--------------------------------------------------------------------------------------------------
 esc = html.escape
@@ -370,3 +378,162 @@ def variant_rows(rows: list[dict], models: list[Model], budget: int) -> str:
         <p class="note">{note}</p>
       </article>""")
     return "\n".join(out)
+
+#Все що стосується html-сторінки----------------------------------------------------------------------------------------------------------------
+
+
+def read(path):
+    with open(path, encoding="utf-8") as handle:
+        return handle.read()
+
+
+def fill(source, **values):
+    for key, value in values.items():
+        source = source.replace("$" + key, str(value))
+    return source
+
+
+def page(title, body, active):
+    return fill(
+        read(TEMPLATES + "layout.html"),
+        title=title,
+        calc_cls=' class="active"' if active == "calc" else "",
+        help_cls="",
+        body=body,
+    )
+
+
+def first(form, key, default=""):
+    return form.get(key, [default])[0]
+
+
+def render_index(form):
+    action = first(form, "action")
+
+    try:
+        voltage = int(first(form, "voltage", "48"))
+    except ValueError:
+        voltage = 48
+
+    if voltage not in (24, 48):
+        voltage = 48
+
+    budget = min(2_000_000, max(1_000, parse_price(first(form, "budget", "50000")) or 50_000))
+
+    bands, default_band = bands_for(voltage)
+    raw_band = first(form, "band")
+    valid = {b for b, _count in bands}
+    band = int(raw_band) if raw_band.isdigit() and int(raw_band) in valid else default_band
+
+    models = models_for(voltage, band) if band is not None else []
+    known = {m.id for m in models}
+    suggested = {n: suggest(models, n, budget).id for n in (1, 2, 3)} if models else {}
+
+    rows = []
+
+    for n in (1, 2, 3):
+        raw = first(form, f"m{n}")
+
+        if raw == "noname":
+            model_id = None
+        elif raw.isdigit() and int(raw) in known:
+            model_id = int(raw)
+        else:
+            model_id = suggested.get(n)
+
+        rows.append({
+            "units": n,
+            "id": model_id,
+            "price": first(form, f"p{n}"),
+            "reliability": first(form, f"r{n}")
+        })
+
+    error = ""
+    result = '<p class="empty">Тут з’являться рядки порівняння.</p>'
+    chart = '<p class="empty">Після «Розрахувати» тут з’являться криві кожного варіанта.</p>'
+
+    if action == "calc":
+        try:
+            data = calculate(band, budget, rows)
+        except ValueError as problem:
+            error = f'<p class="error" role="alert">{esc(str(problem))}</p>'
+        else:
+            result = result_block(data)
+            chart = chart_svg(data["curves"])
+
+    body = fill(
+        read(TEMPLATES + "index.html"),
+        budget=budget,
+        voltage_options=options_html([("24", "24 В"), ("48", "48 В")], str(voltage)),
+        band_options=options_html(
+            [(str(b), f"{band_label(b)} · у базі {count}") for b, count in bands],
+            str(band)
+        ),
+        error=error,
+        variants=variant_rows(rows, models, budget),
+        chart=chart,
+        result=result,
+    )
+
+    return page("Один, два чи три інвертори", body, "calc")
+
+
+# Сервер
+
+class Handler(BaseHTTPRequestHandler):
+
+    def _send(self, status, body, ctype):
+        data = body.encode("utf-8") if isinstance(body, str) else body
+        self.send_response(status)
+        self.send_header("Content-Type", f"{ctype}; charset=utf-8")
+        self.send_header("Content-Length", str(len(data)))
+        self.end_headers()
+        self.wfile.write(data)
+
+    def do_GET(self):
+        path = self.path.split("?")[0]
+
+        if path in ("/", "/index.html"):
+            return self._send(200, render_index({}), "text/html")
+
+        if path == "/style.css":
+            return self._send(200, read("static/style.css"), "text/css")
+
+        self._send(
+            404,
+            page("Не знайдено", '<section class="intro"><h1>Сторінку не знайдено</h1></section>', ""),
+            "text/html"
+        )
+
+    def do_POST(self):
+        length = int(self.headers.get("Content-Length", 0))
+        form = parse_qs(self.rfile.read(length).decode("utf-8"))
+        self._send(200, render_index(form), "text/html")
+
+    def log_message(self, *_args):
+        pass
+
+
+def main():
+    global CATALOG
+
+    try:
+        CATALOG = load_catalog()
+    except FileNotFoundError as error:
+        raise SystemExit(str(error)) from error
+
+    server = HTTPServer((HOST, PORT), Handler)
+    url = f"http://{HOST}:{PORT}"
+
+    print(f"Сайт працює: {url} (зупинити — Ctrl+C), у базі {len(CATALOG)} інверторів")
+
+    webbrowser.open(url)
+
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        print("\nЗупинено.")
+
+
+if __name__ == "__main__":
+    main()
