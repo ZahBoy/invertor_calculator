@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Підбір інвертора</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,63 +11,56 @@
     <h1>Підбір інвертора</h1>
     <p class="lead">Оберіть три моделі, вкажіть бюджет, напругу та потужність - ми знайдемо оптимальний варіант</p>
 
-    <form action="" method="get">
+    <form action="/" method="get">
       <section class="card bar">
-        <label><input type="number" name="budget">Ваш бюджет</label>
-        <label><select name="voltage"></select>Напруга</label>
-        <label><select name="power"></select>Потужність</label>
+        <label><input type="number" name="budget" min="1" value="{{budget}}">Ваш бюджет</label>
+        <label><select name="voltage" onchange="this.form.submit()">{{voltages}}</select>Напруга</label>
+        <label><select name="power" onchange="this.form.submit()">{{powers}}</select>Потужність</label>
         <div class="actions">
-          <button type="reset" class="btn ghost">Скинути</button>
-          <button type="submit" class="btn">Розрахувати</button>
+          <a href="/" class="btn ghost">Скинути</a>
+          <button type="submit" name="calc" value="1" class="btn">Розрахувати</button>
         </div>
       </section>
 
       <section class="card variant">
         <h2>1. Перший інвертор</h2>
         <div class="row">
-          <label class="model"><select name="model1"></select>Модель</label>
-          <label><input type="number" name="price1">Ціна (у гривнях)</label>
-          <label><input type="number" name="rel1">Надійність</label>
-          <output class="total"></output>
+          <label class="model"><select name="model1" onchange="this.form.submit()">{{models1}}</select>Модель</label>
+          <label><input type="number" name="price1" min="1" value="{{price1}}" {{lock1}}>Ціна (у гривнях)</label>
+          <label><input type="number" name="rel1" step="any" min="0" max="100" placeholder="0.92" value="{{rel1}}">Надійність</label>
+          <output class="total">{{total1}}</output>
         </div>
-        <p class="hint"></p>
+        <p class="hint">{{hint1}}</p>
       </section>
 
       <section class="card variant">
-        <h2></h2>
+        <h2>2. Два інвертори</h2>
         <div class="row">
-          <label class="model"><select name="model2"></select>Модель</label>
-          <label><input type="number" name="price2">Ціна (у гривнях)</label>
-          <label><input type="number" name="rel2">Надійність</label>
-          <output class="total"></output>
+          <label class="model"><select name="model2" onchange="this.form.submit()">{{models2}}</select>Модель</label>
+          <label><input type="number" name="price2" min="1" value="{{price2}}" {{lock2}}>Ціна (у гривнях)</label>
+          <label><input type="number" name="rel2" step="any" min="0" max="100" placeholder="0.92" value="{{rel2}}">Надійність</label>
+          <output class="total">{{total2}}</output>
         </div>
-        <p class="hint"></p>
+        <p class="hint">{{hint2}}</p>
       </section>
 
       <section class="card variant">
-        <h2></h2>
+        <h2>3. Три інвертори</h2>
         <div class="row">
-          <label class="model"><select name="model3"></select>Модель</label>
-          <label><input type="number" name="price3">Ціна (у гривнях)</label>
-          <label><input type="number" name="rel3">Надійність</label>
-          <output class="total"></output>
+          <label class="model"><select name="model3" onchange="this.form.submit()">{{models3}}</select>Модель</label>
+          <label><input type="number" name="price3" min="1" value="{{price3}}" {{lock3}}>Ціна (у гривнях)</label>
+          <label><input type="number" name="rel3" step="any" min="0" max="100" placeholder="0.92" value="{{rel3}}">Надійність</label>
+          <output class="total">{{total3}}</output>
         </div>
-        <p class="hint"></p>
+        <p class="hint">{{hint3}}</p>
       </section>
     </form>
 
     <div class="grid2">
       <section class="card">
         <h3>Порівняння ризиків</h3>
-        <ul class="chart">
-          <li>
-              <span class="name">Шанс залишитися без живлення за 5 років гарантії. Менше - краще</span>
-              <span class="track">
-                  <span class="fill good|mid|bad" style="--v: N%"></span>
-              </span>
-              <span class="val"></span>
-          </li>
-        </ul>
+        <p class="hint">Шанс залишитися без живлення за 5 років гарантії. Менше - краще</p>
+        <ul class="chart">{{chart}}</ul>
       </section>
 
       <section class="card">
@@ -81,11 +74,12 @@
               <th>Бюджет</th>
           </tr>
           </thead>
-          <tbody></tbody>
+          <tbody>{{rows}}</tbody>
         </table>
-        <p class="best"></p>
+        {{best}}
       </section>
     </div>
   </main>
 </body>
+</html>
 </html>
