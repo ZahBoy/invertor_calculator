@@ -161,3 +161,10 @@ def plain_p(value):
     elif len(text.split(".")[1]) < 2:
         text += "0"
     return text.replace(".", ",")
+
+def failure_probability(reliability, units):
+    return (1.0 - reliability) ** units
+
+
+def failure_formula(reliability, units):
+    return " × ".join([f"(1 − {plain_p(reliability)})"] * units)
