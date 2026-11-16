@@ -1,9 +1,12 @@
+import csv
 
 FILE_24 = "data/Invertor_24V.csv"
 FILE_48 = "data/Invertor_48V.csv"
 TEMPLATES = "template/"
+CATALOG = []
 
-import csv
+
+
 
 class Model:        #моделька для будь-якого інвертора
     def __init__(self, name: str, power_w: int, price: int, source: str, voltage: int, id: int = 0):
@@ -108,7 +111,36 @@ def load_catalog():
         item.id = index
     return catalog
 
+#Фільтрація інверторів за потужніст.-----------------------------------------------------------------------------------
+
+def power_band(power_w):
+    return max(0, power_w) // 1000
 
 
+def band_label(band_kw):
+    return f"{band_kw}.0-{band_kw + 1}.0 кВт"
 
+
+def in_band(power_w, band_kw):
+    return power_band(power_w) == band_kw
+
+def models_for(voltage, band):
+    found = [m for m in CATALOG if m.voltage == voltage and in_band(m.power_w, band)]
+    return sorted(found, key=lambda m: (m.power_w, m.price, m.name))
+
+
+def bands_for(voltage):
+    counts = {}
+    for item in CATALOG:
+        if item.voltage == voltage:
+            band = power_band(item.power_w)
+            counts[band] = counts.get(band, 0) + 1
+    default = max(counts, key=lambda b: (counts[b], -abs(b - 5))) if counts else None
+    return sorted(counts.items()), default
+
+def suggest(models, units, budget):
+    fitting = [m for m in models if m.price * units <= budget]
+    return min(fitting or models, key=lambda m: (abs(m.price * units - budget), m.price, m.name))
+
+CATALOG = load_catalog()
 
