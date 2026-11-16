@@ -99,5 +99,16 @@ def load_file(path, voltage):
 
     return rows
 
+def load_catalog():
+    try:
+        catalog = load_file(FILE_24, 24) + load_file(FILE_48, 48)
+    except FileNotFoundError as error:
+        raise FileNotFoundError(f"Немає файлу: {error.filename}") from error
+    for index, item in enumerate(catalog):
+        item.id = index
+    return catalog
+
+
+
 
 
