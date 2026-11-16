@@ -154,4 +154,10 @@ def reliability_at(reliability, years):
         return 0.0
     return reliability ** (years / HORIZON)
 
-
+def plain_p(value):
+    text = f"{value:.4f}".rstrip("0").rstrip(".")
+    if "." not in text:
+        text += ".00"
+    elif len(text.split(".")[1]) < 2:
+        text += "0"
+    return text.replace(".", ",")
