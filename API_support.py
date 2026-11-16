@@ -9,10 +9,13 @@
 тут лише перевірка запиту і перетворення результату у словники.
 Запускати з кореня репозиторію (шляхи до data/ відносні).
 """
-from urllib.parse import urlencode
+import json
+from http.server import BaseHTTPRequestHandler, HTTPServer
+from urllib.parse import parse_qs, urlsplit, urlencode
 
 import script
 
+HOST, PORT = "127.0.0.1", 8001  # сайт працює на 8000, API - поруч на 8001
 VOLTAGES = (24, 48)
 DEFAULT_LIMIT = 20
 MAX_LIMIT = 100
@@ -211,3 +214,46 @@ class InverterAPI:
                 for units, label, _values, at in result["curves"]
             ],
         }
+
+
+API = InverterAPI()
+
+
+class ApiHandler(BaseHTTPRequestHandler):
+    """HTTP-обгортка: розбирає запит, передає його в InverterAPI і віддає JSON."""
+
+    def _send_json(self, status, data):
+        body = json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_GET(self):
+        url = urlsplit(self.path)
+        self._send_json(*API.handle_get(url.path, parse_qs(url.query)))
+
+    def do_POST(self):
+        length = int(self.headers.get("Content-Length", 0))
+        try:
+            body = json.loads(self.rfile.read(length).decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError):
+            return self._send_json(400, {"error": "Тіло запиту - не JSON."})
+        self._send_json(*API.handle_post(urlsplit(self.path).path, body))
+
+    def log_message(self, fmt, *args):
+        print(f"{self.command} {self.path} -> {args[1] if len(args) > 1 else ''}")
+
+
+def main():
+    server = HTTPServer((HOST, PORT), ApiHandler)
+    print(f"API працює: http://{HOST}:{PORT}/api (зупинити - Ctrl+C), у базі {len(script.CATALOG)} інверторів")
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        print("\nЗупинено.")
+
+
+if __name__ == "__main__":
+    main()
