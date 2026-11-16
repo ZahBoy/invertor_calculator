@@ -1,4 +1,5 @@
 import csv
+import html
 
 FILE_24 = "data/Invertor_24V.csv"
 FILE_48 = "data/Invertor_48V.csv"
@@ -233,4 +234,139 @@ def calculate(band: int | None, budget: int, rows: list[dict]) -> dict:
 
 CATALOG = load_catalog()
 
+#Побудова графіка(ШІ)--------------------------------------------------------------------------------------------------
+esc = html.escape
 
+
+def result_block(data: dict) -> str:
+    parts = []
+    for option, rank in data["ordered"]:
+        choice = option.choice
+        power = f", {choice.power_w} Вт" if choice.power_w > 0 else ""
+        note = " (більше, ніж є грошей)" if option.over_budget else ""
+        parts.append(
+            f'<p class="res {rank}">{choice.units} × {esc(choice.name)}{power}: '
+            f"відмова {failure_formula(choice.reliability, choice.units)} = {percent(option.failure)}, "
+            f"витрати {money(choice.spent)}, ризик {money(option.risk)}{note}"
+            f"<b>{RANK_TEXT[rank]}</b></p>"
+        )
+    if data["collapsed"]:
+        parts.append('<p class="collapsed-note">Варіанти 2 і 3 — той самий інвертор, '
+                     "показано той, що з меншим ризиком.</p>")
+    return "\n".join(parts)
+
+
+def chart_svg(curves: list) -> str:
+    """Графік у вигляді SVG: Python сам складає розмітку, бібліотеки не потрібні."""
+    width, height, left, right, top, bottom = 640, 340, 52, 64, 16, 40
+    plot_w, plot_h = width - left - right, height - top - bottom
+    span = HORIZON * 1.25
+    low = max(0.0, min(1.0, min(min(c[2]) for c in curves)))
+    if 1.0 - low < 0.02:
+        low = 0.98
+
+    def x_of(years: float) -> float:
+        return left + plot_w * years / span
+
+    def y_of(value: float) -> float:
+        value = max(low, min(1.0, value))
+        return top + plot_h * (1.0 - (value - low) / (1.0 - low))
+
+    def pct(value: float) -> str:
+        return f"{value * 100:.1f}%"
+
+    s = [f'<svg viewBox="0 0 {width} {height}" role="img" font-family="Segoe UI, system-ui, sans-serif" '
+         f'aria-label="Графік надійності варіантів у часі">']
+    for i in range(6):
+        v = low + (1.0 - low) * i / 5
+        y = y_of(v)
+        s.append(f'<line x1="{left}" x2="{left + plot_w}" y1="{y:.1f}" y2="{y:.1f}" stroke="{GRID}"/>')
+        s.append(f'<text x="{left - 6}" y="{y + 4:.1f}" text-anchor="end" font-size="11" fill="{MUTED}">{pct(v)}</text>')
+    for year in range(7):
+        s.append(f'<text x="{x_of(year):.1f}" y="{top + plot_h + 16}" text-anchor="middle" '
+                 f'font-size="11" fill="{MUTED}">{year}</text>')
+    s.append(f'<text x="{left + plot_w / 2:.1f}" y="{height - 6}" text-anchor="middle" '
+             f'font-size="11" fill="{MUTED}">Роки від покупки</text>')
+
+    hx = x_of(HORIZON)
+    s.append(f'<line x1="{hx:.1f}" x2="{hx:.1f}" y1="{top}" y2="{top + plot_h}" '
+             f'stroke="{MUTED}" stroke-dasharray="3 4"/>')
+    s.append(f'<text x="{hx + 4:.1f}" y="{top + 10}" font-size="11" fill="{MUTED}">{HORIZON:g} р.</text>')
+
+    for units, _label, values, _at in curves:
+        points = " ".join(
+            f"{x_of(span * i / (len(values) - 1)):.1f},{y_of(v):.1f}" for i, v in enumerate(values)
+        )
+        s.append(f'<polyline fill="none" stroke="{COLORS[units]}" stroke-width="2.6" '
+                 f'stroke-linejoin="round" points="{points}"/>')
+
+    # Підписи точних відсотків на пунктирі; розсуваємо, щоб не налягали.
+    previous = -1e9
+    for y, (units, _label, _values, at) in sorted(((y_of(c[3]), c) for c in curves), key=lambda item: item[0]):
+        ty = max(y, previous + 15)
+        previous = ty
+        color = COLORS[units]
+        s.append(f'<circle cx="{hx:.1f}" cy="{y:.1f}" r="4" fill="{color}"/>')
+        s.append(f'<line x1="{hx + 4:.1f}" y1="{y:.1f}" x2="{hx + 10:.1f}" y2="{ty:.1f}" stroke="{color}"/>')
+        s.append(f'<text x="{hx + 12:.1f}" y="{ty + 4:.1f}" font-size="12" font-weight="600" '
+                 f'fill="#010101">{pct(at)}</text>')
+
+    # Легенда в нижньому лівому куті графіка.
+    for i, (units, label, _values, _at) in enumerate(curves):
+        y = top + plot_h - 10 - 18 * (len(curves) - 1 - i)
+        s.append(f'<line x1="{left + 10}" x2="{left + 28}" y1="{y}" y2="{y}" '
+                 f'stroke="{COLORS[units]}" stroke-width="3"/>')
+        s.append(f'<text x="{left + 34}" y="{y + 4}" font-size="12" fill="#010101">{esc(label)}</text>')
+    s.append("</svg>")
+    return "\n".join(s)
+
+
+def options_html(items: list[tuple[str, str]], selected: str) -> str:
+    return "".join(
+        f'<option value="{esc(value)}"{" selected" if value == selected else ""}>{esc(text)}</option>'
+        for value, text in items
+    )
+
+
+def variant_rows(rows: list[dict], models: list[Model], budget: int) -> str:
+    titles = {
+        1: "1. Один інвертор",
+        2: "2. Два однакові: один працює, другий лежить у запасі",
+        3: "3. Три однакові: один працює, два лежать у запасі",
+    }
+    out = []
+    for row in rows:
+        n, model_id = row["units"], row["id"]
+        items = [("noname", "Noname — вписати ціну з сайту")] + [
+            (str(m.id), f"{m.name} — {m.power_w} Вт — {price_text(m.price)} грн") for m in models
+        ]
+        selected = "noname" if model_id is None else str(model_id)
+        if model_id is None:
+            price_input = (f'<input class="price manual" name="p{n}" inputmode="numeric" '
+                           f'placeholder="ціна" value="{esc(row["price"])}">')
+            caption, price = "Ціна з сайту", parse_price(row["price"])
+            note = "Моделі немає в базі: впишіть ціну однієї штуки і надійність."
+        else:
+            item = CATALOG[model_id]
+            price_input = (f'<input class="price" name="p{n}" value="{price_text(item.price)}" readonly>')
+            caption, price = "Ціна з бази", item.price
+            note = f"{item.power_w} Вт, ціна з {esc(item.source)}. Надійності в прайсі немає — впишіть її самі."
+        if price > 0:
+            spent = price * n
+            over = spent > budget
+            total = (f'<div class="total{" over" if over else ""}">разом {money(spent)}'
+                     f'{" — більше, ніж є грошей" if over else ""}</div>')
+        else:
+            total = '<div class="total">разом —</div>'
+        out.append(f"""
+      <article class="variant">
+        <h3>{titles[n]}</h3>
+        <div class="row">
+          <label class="field grow">Модель <select name="m{n}">{options_html(items, selected)}</select></label>
+          <label class="field">{caption}, грн {price_input}</label>
+          <label class="field">Надійність <input class="rel" name="r{n}" inputmode="decimal" placeholder="0,92" value="{esc(row['reliability'])}"></label>
+          {total}
+        </div>
+        <p class="note">{note}</p>
+      </article>""")
+    return "\n".join(out)
