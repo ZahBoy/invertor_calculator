@@ -1,232 +1,284 @@
-﻿Марка інвертора;Потужність;Ціна;Джерело (сайт);warranty_months;type;in_stock;url
-Europower — 2 кВт 48V, 2100 W, Вт, сонячний, для дому, сонячної станції;2100 Вт (2.1 кВт);26 200 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2120734484-gibridnyj-invertor-kvt.html
-Victron Energy MultiPlus-II 48/3000/35-32 230V GX;2400 Вт (2.4 кВт);38 138 грн;220volt.com.ua;;inverter;yes;https://220volt.com.ua/ua/sistema-ibp-dlya-doma-multiplus-ii-48-3000-35-32-230v-gx-pmp482306000/
-Victron Energy MultiPlus 48/3000 / 35-50;2400 Вт (2.4 кВт);45 212 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor-victron-energy-multiplus-48-3000-35-50/
-Victron Energy EasySolar-II 48/3000/35-32 MPPT 250/70 GX;2400 Вт (2.4 кВт);84 186 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_easysolar_ii_48300035_32_mppt_25070_gx_pmp482307010/
-Ritar — 4 кВт, 48 вольт, В, 4000 W, Вт, для сонячної станції;3000 Вт (3 кВт);23 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989830568-gibridnyj-invertor-kvt.html
-Ritar — 4 кВт, kW, 4000Вт, 48 В, Вольт, V, solar, сонячний, під ФЕМ, панелі, сонячні батареї, СЕС;3000 Вт (3 кВт);24 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2018930839-gibridnyj-invertor-kvt.html
-Без бренду — 3,5кВт, 48 В, вольт, 3 kW, 3500W;3500 Вт (3.5 кВт);19 500 грн;use.com.ua;24;hybrid;yes;https://use.com.ua/ua/p2107991385-solnechnyj-invertor-3500.html
-Europower — сонячний 3500 W, 48V, 48Вольт, 3,5кВт, 3500Вт, для сонячних батарей, чиста синусоїда;3500 Вт (3.5 кВт);37 100 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p2241546030-invertor-solnechnyj-3500.html
-Logicpower LPY-C-PSW-5000VA;3500 Вт (3.5 кВт);41 257 грн;220volt.com.ua;12;off_grid;no;https://220volt.com.ua/ua/invertor-logicpower-lpy-c-psw-5000va/
-Без бренду — 3 кВт 48V, 3680 W, Вт, сонячний, для дому, сонячної станції;3680 Вт (3.68 кВт);33 100 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2333618079-gibridnyj-invertor-kvt.html
-Без бренду — 3,68 кВт, kW, 48 Вольт, V, 3680 Вт, сонячний, безшумний, пасивне охолодження;3680 Вт (3.68 кВт);37 000 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2349653538-gibridnyj-invertor-368.html
-EcoFlow Power Ocean 3,68 kWh однофазний;3680 Вт (3.68 кВт);76 999 грн;220volt.com.ua;180;hybrid;yes;https://220volt.com.ua/ua/gibridnyi_invertor_ecoflow_power_ocean_368_kwh_odnofaznyi/
-Orbus — 4 квт 48в, гібридний, сонячний, 1ф, 4000 Вт, W, 48V;4000 Вт (4 кВт);20 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989901349-invertor-kvt-48v.html
-Orbus — для сонячної станції, 4кВт, 4000W, 48V, 48Вольт, для СЕС, UPS, АКБ, для дома, квартири, офіса;4000 Вт (4 кВт);25 000 грн;use.com.ua;;inverter;yes;https://use.com.ua/ua/p2018936211-invertor-dlya-solnechnoj.html
-Victron Energy MultiPlus-II 48/4k5/55-32;4000 Вт (4 кВт);34 273 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_ii_484k555_32_230v/
-Victron Energy MultiPlus-II 48/4k5/55-32 230V GX;4000 Вт (4 кВт);38 311 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_ii_484k555_32_230v_gx/
-Victron Energy MultiPlus-II 48/5000/70-50;4000 Вт (4 кВт);41 697 грн;220volt.com.ua;;inverter;yes;https://220volt.com.ua/ua/invertor_multiplus_ii_48500070_50/
-Victron Energy MultiPlus 48/5000/70-100 230V VE.Bus;4000 Вт (4 кВт);77 494 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_48500070_100_230v_vebus_pmp485021010/
-Victron Energy Quattro-II 48/5000/70-50/50 230V;4000 Вт (4 кВт);82 498 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_quattro_ii_48500070_5050_230v_qua482504010/
-Victron Energy EasySolar-II 48/5000/70-50 MPPT 250/100 GX;4000 Вт (4 кВт);118 711 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_easysolar_ii_48500070_50_mppt_250100_gx_pmp482507010/
-Europower — 3кВт, 48 В, вольт, 5 kW, 3500W;5000 Вт (5 кВт);14 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2293848302-gibridnyj-solnechnyj-invertor.html
-Must PV18-5048VHM, 48 В, 80 А, 5000 Вт, PV145V;5000 Вт (5 кВт);15 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-must-pv18-5048vhm-48-v-80-a-5000-vt-bezperebiynik-ups-dbzh/
-Must PV18-5048VHM, 48 В, 80 А, 5000 Вт, PV245V;5000 Вт (5 кВт);16 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-must-pv18-5048vhm-48-v-80-a-5000-vt-pv245v-bezperebiynik-ups-dbzh/
-автономний Felicity IVEM5048-LV;5000 Вт (5 кВт);17 165 грн;220volt.com.ua;60;off_grid;no;https://220volt.com.ua/ua/invertor_gibridnyi_felicity_ivem5048_lv/
-Без бренду — 5 квт, 48В, 48V, 5 000 W, Вт, гібридний;5000 Вт (5 кВт);19 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989970903-solnechnyj-invertor-kvt.html
-Без бренду — BRAZZERS 5000W, 5 KW, кВт, 48V, контролер MPPT, автономний, чиста синусоїда;5000 Вт (5 кВт);19 600 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989850810-gibridnyj-invertor-brazzers.html
-Must online, 5кВт, 48V, Вольт, 80А МРРТ, чиста синусоїда, онлайн, для квартири;5000 Вт (5 кВт);19 600 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p2449095127-avtonomnyj-invertor-must.html
-RITAR 5000W, 5 кВт, 48V, Вольт, Volt, для сонячних станцій, автономний, мережевий;5000 Вт (5 кВт);19 800 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989859652-gibridnyj-invertor-ritar.html
-TommaTech — 5 кВт, 48 вольт, В, 5000 W, Вт, для сонячної станції;5000 Вт (5 кВт);20 400 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2345189211-gibridnyj-invertor-kvt.html
-TommaTech — 5 квт, 1 фаза, 48В, 48V, 5 000 W, Вт, гібридний;5000 Вт (5 кВт);20 400 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2301337959-solnechnyj-invertor-kvt.html
-Lexron — 5 кВт, 48 вольт, В, 5000 W, Вт, для сонячної станції;5000 Вт (5 кВт);20 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1942488221-gibridnyj-invertor-kvt.html
-Orbus — 5 кВт 48V, 5000 W, Вт, сонячний, для дому, сонячної станції;5000 Вт (5 кВт);20 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989898791-gibridnyj-invertor-kvt.html
-Orbus — 5 кВт, 48 вольт, В, 5000 W, Вт, для сонячної станції;5000 Вт (5 кВт);20 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989906497-gibridnyj-invertor-kvt.html
-TommaTech — для дома 5 кВт,  5000W, Вт, 48 В, V, резервне живлення, інвертор для акумуляторів;5000 Вт (5 кВт);20 500 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2448813334-invertor-dlya-doma.html
-Без бренду — 5 квт, 1 фаза, 48В, 48V, 55000 W, Вт, гібридний;5000 Вт (5 кВт);21 000 грн;use.com.ua;24;hybrid;yes;https://use.com.ua/ua/p2107991748-solnechnyj-invertor-kvt.html
-Без бренду — 5 кВт 48V, 5000 W, Вт, сонячний, для дому, сонячної станції;5000 Вт (5 кВт);21 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2511594459-gibridnyj-invertor-kvt.html
-Must — 48В 5кВт, 48V, 48Volt, 5000 W, Вт, сонячний, автономний, під фотомодулі, для сонячної станції;5000 Вт (5 кВт);21 400 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p1754104738-invertor-48v-5kvt.html
-Без бренду — 5 кВт, 48 вольт, В, 5000 W, Вт, для сонячної станції;5000 Вт (5 кВт);21 800 грн;use.com.ua;24;hybrid;no;https://use.com.ua/ua/p2107990385-gibridnyj-invertor-kvt.html
-Smart — 5 квт 48в, гібридний, сонячний, 1 МРРТ, 5000 Вт, W, 48V;5000 Вт (5 кВт);22 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989969393-invertor-kvt-48v.html
-LUXPOWER SNA5000 WPV, 48 В, 5000 Вт, 110 А, 2 МРРТ;5000 Вт (5 кВт);23 900 грн;ecodrive.in.ua;24;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-luxpower-sna5000-wpv-48-v-5000-vt-110-a-2-mrrt-bezperebiynik-ups-dbzh/
-NetPRO — 5000 вт 48v, 5кВт, 5kW, 48вольт, для акумулятора 48V, сонячної станції;5000 Вт (5 кВт);25 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1942489108-gibridnyj-invertor-5000.html
-NetPRO — 5 квт, однофазний, 48В, 48V, 5 000 W, Вт, гібридний;5000 Вт (5 кВт);25 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1501436146-solnechnyj-invertor-kvt.html
-Lexron — Сонячний гібридний інвертор 5кВт, 48 В, Вольт, 5000 вт, W, з холодним стартом, чиста синусоїда;5000 Вт (5 кВт);26 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1762021006-solnechnyj-gibridnyj-invertor.html
-Без бренду — для сонячної станції, 48 В, Вольт, Volt, 5,2кВт, Вт, АКБ, інвертор, мережевий, гібридний, автономний;5000 Вт (5 кВт);26 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2018936556-invertor-dlya-solnechnoj.html
-Без бренду — 48V 5kW, 5000W, 48Volt, 48вольт, АКБ, для СЕС, сонячної станції, чиста синусоїда;5000 Вт (5 кВт);26 000 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p2018926978-avtonomnyj-invertor-48v.html
-Без бренду — 48V, 5kW, 5,6кВт, 48V, 48вольт, 48В, UPS, автономний, для сонячної електростанції;5000 Вт (5 кВт);26 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2018936539-gibridnyj-invertor-48v.html
-гібридний Felicity IVEM 5КВА 48В (38372);5000 Вт (5 кВт);26 820 грн;220volt.com.ua;12;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_felicity_ivem_5kva_48v/
-TommaTech — для дому 5кВт, 5000kW, 48 V, вольт, сонячний, гібридни;5000 Вт (5 кВт);27 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2343622843-invertor-dlya-doma.html
-Must — для квартири 5квт, 5200 W, Вт, 48 В, V, для акумулятора, сонячних панелей, дому;5000 Вт (5 кВт);28 000 грн;use.com.ua;;inverter;yes;https://use.com.ua/ua/p2448538233-invertor-dlya-kvartiry.html
-Logicpower LPW-HY-5032-5000VA;5000 Вт (5 кВт);28 728 грн;220volt.com.ua;12;hybrid;no;https://220volt.com.ua/ua/invertor-lpw-hy-5032-5000va/
-GOODWE GW5000-ES-20, 48 В, 5000 Вт, 120 А (ES Series,  Plug & Play, безшумний, безперебійник, UPS, ДБЖ);5000 Вт (5 кВт);29 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-goodwe-gw5000-es-20-48-v-5000-vt-120-a-es-series-plug-and-play-bezshumniy-bezperebiynik-ups-dbzh/
-SRNE — 5 квт 48в, гібридний, сонячний, 1ф, 5000 Вт, W, 48V;5000 Вт (5 кВт);30 400 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2288507932-invertor-kvt-48v.html
-SRNE HFP4850S80-145;5000 Вт (5 кВт);30 690 грн;220volt.com.ua;24;hybrid;no;https://220volt.com.ua/ua/gibridnyi_invertor_srne_hfp4850s80_145/
-Luxpower SNA5000 Wide PV;5000 Вт (5 кВт);31 040 грн;220volt.com.ua;;hybrid;no;https://220volt.com.ua/ua/invertor-luxpower-sna5000-wide-pv/
-NetPRO — сонячний 5 kW, кВт, 48 В, вольт, 5000 W, Вт, LiFePO4, AGM, АКБ, для домашньої сонячної електростанції, AGM акумуляторів;5000 Вт (5 кВт);31 200 грн;use.com.ua;;inverter;yes;https://use.com.ua/ua/p1754103185-invertor-solnechnyj-kvt.html
-гібридний Felicity T-REX-5KLP1G01;5000 Вт (5 кВт);31 469 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_felicity_t_rex_5klp1g01/
-LuxPower, SNA5000, WPV, 5квт, 1 фаза, з МРРТ контролером, для сонячних станцій;5000 Вт (5 кВт);32 800 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1942493917-gibridnyj-solnechnyj-invertor.html
-LuxPower SNA5000 WPV 5кВт 1 фаза з МРРТ контролером для сонячних станцій систем;5000 Вт (5 кВт);32 800 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1758081780-gibridnyj-solnechnyj-invertor.html
-5 кВт,  kW, 5000Вт, LuxPower, 1 фаза, Lifepo4, літій, для сонячної електростанції, комплект живлення;5000 Вт (5 кВт);32 800 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1758081468-gibridnyj-invertor-kvt.html
-SRNE HFP4850S80-H;5000 Вт (5 кВт);33 713 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/gibridnyi_invertor_srne_hfp4850s80_h/
-NetPRO — сонячний 5000Вт, 48Volt, V, 5000Вт, 5 kW, для сонячних станцій, підключення акумуляторів та панелей;5000 Вт (5 кВт);33 800 грн;use.com.ua;24;hybrid;preorder;https://use.com.ua/ua/p2021789455-gibridnyj-invertor-solnechnyj.html
-NetPRO — гібридний 5000 W, 5кВт, 48V, Phaeton-I, для сонячної станції, онлайн;5000 Вт (5 кВт);33 800 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1754102982-invertor-gibridnyj-5000.html
-NetPRO — Phaeton II, 5 кВт, KVA, 48 V, Вольт, Volt, для сонячних станцій;5000 Вт (5 кВт);33 800 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1754098399-gibridnij-invertor-phaeton.html
-Powmr POW-RELAB-5KE NEW 2024, 48 В, 5000 Вт (низькочастотний інвертор, безперебійник, UPS, ДБЖ);5000 Вт (5 кВт);34 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-pow-relab-5ke-new-2024-48-v-5000-vt-nizkochastotniy-invertor-bezperebiynik-ups-dbzh/
-Afore — Безшумний інвертор 5кВт, 5000вт, інвертор 48Вольт, гібридний інверор 5кВт, однофазний, 2 МРРТ;5000 Вт (5 кВт);36 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2853368882-besshumnyj-invertor-5kvt.html
-Deye — 5кВт, 48 В, вольт, 5 kW, 5000W;5000 Вт (5 кВт);38 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2443047428-gibridnyj-solnechnyj-invertor.html
-TommaTech — Автономний гібридний інвертор 5кВт, 48 В, Вольт, 5000 W, Вт, під сонячні панелі, правильна чиста синусоїда, АКБ;5000 Вт (5 кВт);38 200 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2326146858-avtonomnyj-gibridnyj-invertor.html
-TommaTech — 5 кВт, 48 В, Volt, 5000 Вт, kW, резервне живлення для дому, домашньої СЕС під фотомодулі;5000 Вт (5 кВт);38 200 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2355378540-solnechnyj-invertor-kvt.html
-гібридний LuxPower LXP 5K Hybrid-MG;5000 Вт (5 кВт);38 973 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor_gibridnyi_luxpower_lxp_5k_hybrid_mg/
-Afore — 5кВт, для СЕС, однофазний, інвертор 5000Вт, 48 В, вольт;5000 Вт (5 кВт);39 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2853406874-gibridnyj-invertor-5kvt.html
-Deye SUN-5K-SG03LP1-EU, 48 В, 5000 Вт, 1 фаза;5000 Вт (5 кВт);40 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-5k-sg03lp1-eu-48-v-5000-vt-1-faza-bezperebiynik-ups-dbzh/
-Deye SUN-5K-SG05LP1-EU, 48 В, 5000 Вт, 1 фаза;5000 Вт (5 кВт);40 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-5k-sg05lp1-eu-48-v-5000-vt-1-faza-bezperebiynik-ups-dbzh/
-Без бренду — 5000W, 5 кВт, 48V, Вольт. підключення акумуляторів та панелей;5000 Вт (5 кВт);41 500 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2334209660-gibridnyj-solnechnyj-invertor.html
-Deye SUN-5K-SG06LP1-EU-BM2, 48 В, 5000 Вт, 1 фаза;5000 Вт (5 кВт);41 990 грн;ecodrive.in.ua;60;hybrid;preorder;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-5k-sg06lp1-eu-bm2-48-v-5000-vt-1-faza-bezperebiynik-ups-dbzh/
-Без бренду — гібридний 48В, 5000вт, 5000W, 48В, 48Вольт, для сонячних пателей, батарей, СЕС, правильна синусоїда;5000 Вт (5 кВт);43 700 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2349653543-solnechnyj-invertor-gibridnyj.html
-Deye 5кВт, 48 В, Вольт, 5000 W, Вт, сонячний, гібридний, для СЕС, сонячних електростанцій, резеврного живлення;5000 Вт (5 кВт);44 800 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2443050165-invertor-deye-5kvt.html
-гібридний мережевий Deye SUN-5K-SG03LP1;5000 Вт (5 кВт);45 850 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor-gibridnij-setevoj-deye-sun-5k-sg03lp1-eu-wifi/
-гібридний Dyness D5.0K-LS (5 кВт, 1 фаза);5000 Вт (5 кВт);46 605 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_dyness_d50k_ls_5_kvt_1_faza/
-Livoltek Hyper-5000 48 В, 5000 Вт;5000 Вт (5 кВт);49 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridnyy-invertor-livoltek-hyper-5000-48-v-5000-vt-bespereboynik-ups-ibp/
-гібридний Afore AF5K-SLP;5000 Вт (5 кВт);50 618 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_afore_af5k_slp/
-Victron Energy MultiPlus-II 48/5000/70-50 GX;5000 Вт (5 кВт);52 866 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/sistema-ibp-dlya-doma-multiplus-ii-48-5000-70-50/
-Deye SUN-5K-SG03LP1-EU;5000 Вт (5 кВт);54 630 грн;deye.com.ua;;inverter;;
-Без бренду — ДБЖ 5 кВт, 48V, 0 мс час переключення, чиста синусоїда, Off grid, для серверної;5000 Вт (5 кВт);60 000 грн;use.com.ua;12;inverter;yes;https://use.com.ua/ua/p2508502018-invertor-ibp-kvt.html
-Без бренду — сонячний 48 Вольт, 5 кВт, Вт, 48 Volt, V, гідбридний, для сонячних станцій, батарей, чиста синусоїда;5000 Вт (5 кВт);60 000 грн;use.com.ua;12;inverter;yes;https://use.com.ua/ua/p2511594695-invertor-solnechnyj-volt.html
-EcoFlow Power Ocean 5 kWh однофазний;5000 Вт (5 кВт);78 999 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/gibridnyi_invertor_ecoflow_power_ocean_5_kwh_odnofaznyi/
-автономний Victron Energy Multi RS Solar 48/6000/100-450/80;5000 Вт (5 кВт);86 038 грн;220volt.com.ua;12;hybrid;yes;https://220volt.com.ua/ua/invertor-avtonomnyj-victron-energy-multi-rs-solar-48-6000-100/
-Must PV18-5248PRO, 48 В, 80 А, 5200 Вт;5200 Вт (5.2 кВт);21 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-must-pv18-5248pro-48-v-80-a-5200-vt-bezperebiynik-ups-dbzh/
-5кВт, 48 В, вольт, 5 kW, 5000W, Must;5200 Вт (5.2 кВт);28 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p1989969163-gibridnyj-solnechnyj-invertor.html
-MUST PV18-5248PRO (28908);5200 Вт (5.2 кВт);28 608 грн;220volt.com.ua;24;hybrid;no;https://220volt.com.ua/ua/gibridnyi_invertor_must_pv18_5248pro_28908/
-Daxtromn HGP-5500W, 48 В, 80 А, 5500 Вт;5500 Вт (5.5 кВт);12 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-daxtromn-hgp-5500w-48-v-80-a-5500-vt-bezperebiynik-ups-dbzh/
-Daxtromn SC-HFK-5500-48, 48 В, 80 А, 5500 Вт;5500 Вт (5.5 кВт);14 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-daxtromn-sc-hfk-5500-48-48-v-80-a-5500-vt-bezperebiynik-ups-dbzh/
-автономний SUMRY HGS-5500W;5500 Вт (5.5 кВт);23 464 грн;220volt.com.ua;;hybrid;no;https://220volt.com.ua/ua/invertor-avtonomnyj-sumry-hgs-5500w/
-Off-grid SUMRY HGP-5500W 5kW;5500 Вт (5.5 кВт);25 309 грн;220volt.com.ua;;hybrid;no;https://220volt.com.ua/ua/invertor-off-grid-sumry-hgp-5500w-5kw/
-Без бренду — 5500W, 48V, Вольт, В, 5,5 кВт, Вт, для сонячних станцій, гібридне ДБЖ;5500 Вт (5.5 кВт);26 000 грн;use.com.ua;24;hybrid;yes;https://use.com.ua/ua/p2104260396-gibridnyj-solnechnyj-invertor.html
-NetPRO — 5 кВт, 48 вольт, В, 5600 W, Вт, для сонячної станції;5600 Вт (5.6 кВт);25 000 грн;use.com.ua;24;hybrid;yes;https://use.com.ua/ua/p1942488692-gibridnyj-invertor-kvt.html
-NetPRO — для СЕС 48вольт, 5,6kW, 5,6кВт, 48V, 48вольт, 48В, для сонячних станцій, автономний;5600 Вт (5.6 кВт);31 200 грн;use.com.ua;24;off_grid;preorder;https://use.com.ua/ua/p2021667813-invertor-dlya-ses.html
-Growatt SPF 6000 ES Plus, 48 В, 6000 Вт, 100 А;6000 Вт (6 кВт);18 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-growatt-spf-6000-es-plus-48-v-6000-vt-100-a-bezperebiynik-ups-dbzh/
-Must PH19-6048EXP, 48 В, 120 А, 6000 Вт;6000 Вт (6 кВт);19 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-must-ph19-6048exp-48-v-120-a-6000-vt-bezperebiynik-ups-dbzh-on-grid-zeleniy-tarif/
-Altek — 48 В, 6 кВт, автономний інвертор 6000 Вт, W, під акумулятор Gel, AGM, Lifepo4, для будинку, квартири;6000 Вт (6 кВт);20 000 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p2449088890-invertor-kvt-avtonomnyj.html
-Daxtromn NM-6.2KW-M-PLUS, 48 В, 120 А, 6200 Вт;6000 Вт (6 кВт);20 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-daxtromn-nm-6-2kw-m-plus-48-v-120-a-6200-vt-bezperebiynik-ups-dbzh/
-Felicity Solar IVEM6048-II, 48 В, 6000 Вт, 1 фаза;6000 Вт (6 кВт);21 990 грн;ecodrive.in.ua;24;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-felicity-solar-ivem6048-ii-48-v-6000-vt-1-faza-bezperebiynik-ups-dbzh/
-Ritar — Автономний гібридний інвертор 6000W, 48 Вольт, В, V, 6 кВт, kW, контролер MPPT, чиста синусоїда, гібридне ДБЖ;6000 Вт (6 кВт);25 700 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989842864-avtonomnyj-gibridnyj-invertor.html
-автономний Deye SUN-6K-OG01LP1-EU-AM2;6000 Вт (6 кВт);25 905 грн;220volt.com.ua;60;off_grid;no;https://220volt.com.ua/ua/invertor_avtonomnyi_deye_sun_6k_og01lp1_eu_am2/
-Altek — гібридний 6кВт, 6000ВТ, 48V, 48Volt, ДБЖ, з чистим синусом, однофазний;6000 Вт (6 кВт);27 600 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1766629488-solnechnyj-invertor-gibridnyj.html
-Luxpower SNA6000 Wide PV;6000 Вт (6 кВт);29 344 грн;220volt.com.ua;24;hybrid;no;https://220volt.com.ua/ua/invertor_luxpower_sna6000_wide_pv/
-LUXPOWER LXP6K, 48 В, 6000 Вт, 80 А (безшумний, безперебійник, UPS, ДБЖ);6000 Вт (6 кВт);31 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-luxpower-lxp6k-48-v-6000-vt-80-a-bezperebiynik-ups-dbzh/
-6кВт, 6000W, 48 В, V, volt, однофазний, гібридний, 1ф, Must;6000 Вт (6 кВт);32 700 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2934190263-invertor-6kvt-6000w.html
-Afore — 6000 вт 48v, 6кВт, 6kW, 48вольт, для акумулятора 48V, сонячної станції;6000 Вт (6 кВт);33 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2342539938-gibridnyj-invertor-6000.html
-Без бренду — 6 квт 48в, гібридний, сонячний, 1ф, 6000 Вт, W, 48V;6000 Вт (6 кВт);33 500 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2342552608-invertor-kvt-48v.html
-GOODWE GW6000-ES-20, 48 В, 6000 Вт, 120 А (ES Series,  Plug & Play, безшумний, безперебійник, UPS, ДБЖ);6000 Вт (6 кВт);35 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-goodwe-gw6000-es-20-48-v-6000-vt-120-a-es-series-plug-and-play-bezshumniy-bezperebiynik-ups-dbzh/
-Afore — Тихий інвертор 6кВт, 6000Вт, 48 В, V, гібридний, однофазний, 1ф;6000 Вт (6 кВт);36 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2853372661-tihij-invertor-6kvt.html
-Без бренду — сонячний 48 В, V, 6 кВт, kW, 6000 Вт, резервне живлення для дому. під соняні фотомодулі;6000 Вт (6 кВт);37 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2448840968-gibridnyj-invertor-solnechnyj.html
-Afore — Безшумний інвертор гібридний 6кВт, 6000W, 48В, 48V, для сонячних панелей, однофазний,  пасивне охолодження;6000 Вт (6 кВт);40 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2853415422-besshumnyj-invertor-gibridnyj.html
-Afore — для СЕС 6кВт, 48 Вольт, Volt, 6000 Вт, kW, автономний, мережевий, для домашньої СЕС;6000 Вт (6 кВт);42 600 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2355306549-invertor-dlya-ses.html
-гібридний мережевий Deye SUN-6K-SG05LP1-EU;6000 Вт (6 кВт);44 566 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_setevoi_deye_sun_6k_sg05lp1_eu/
-Без бренду — 6 квт, 1 фаза, 48В, 48V, 6 000 W, Вт, гібридний;6000 Вт (6 кВт);45 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2334226103-solnechnyj-invertor-kvt.html
-Без бренду — чистий синус з функцією зарядки, 6 квт, 6000 W, Вт, 48 Вольт, V, для квартири, дому, під акумулятори Gel, AGM, Lifepo4;6000 Вт (6 кВт);45 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2448828916-invertor-chistyj-sinus.html
-Livoltek Hyper-6000 48 В, 6000 Вт (безшумний, безперебійник, UPS, ДБЖ, On-grid, зелений тариф);6000 Вт (6 кВт);46 540 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-livoltek-hyper-6000-48-v-6000-vt-bezperebiynik-ups-dbzh-on-grid-zeleniy-tarif/
-Deye SUN-6K-SG06LP1-EU-BM2, 48 В, 6000 Вт, 1 фаза;6000 Вт (6 кВт);46 990 грн;ecodrive.in.ua;60;hybrid;yes;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-6k-sg06lp1-eu-bm2-48-v-6000-vt-1-faza-bezperebiynik-ups-dbzh/
-гібридний Deye SUN-6K-SG06LP1-EU-BM2;6000 Вт (6 кВт);47 900 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor_gibridnyi_deye_sun_6k_sg06lp1_eu_bm2/
-гібридний Dyness D6.0K-LS (6 кВт, 1 фаза);6000 Вт (6 кВт);47 900 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_gibridnyi_dyness_d60k_ls_6_kvt_1_faza/
-Victron Energy MultiPlus-II 48/6k5/100-50;6000 Вт (6 кВт);48 416 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_ii_486k5100_50/
-Без бренду — Сонячний гібридний інвертор 6000Вт, 48В, 48Вт, 48вольт, 6кВт, 6kW, однофазний, для сонячних батарей;6000 Вт (6 кВт);48 600 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2349654961-solnechnyj-gibridnyj-invertor.html
-Без бренду — 48 В, 6000Вт, 6000W, 48Вольт, 48В, гібридне ДБЖ, фотомодулі, резервне живлення для дому;6000 Вт (6 кВт);48 600 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2355317203-gibridnyj-invertor-6000vt.html
-гібридний мережевий Deye SUN-6K-SG03LP1-EU;6000 Вт (6 кВт);49 060 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor-gibridnij-setevoj-deye-sun-6k-sg03lp1-eu-wifi/
-Deye SUN-6K-SG05LP1-EU-AM2-P, 48 В, 6000 Вт, 1 фаза;6000 Вт (6 кВт);49 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-6k-sg05lp1-eu-am2-p-48-v-6000-vt-1-faza-bezperebiynik-ups-dbzh/
-Deye SUN-6K-SG05LP1-EU-AM2-P;6000 Вт (6 кВт);51 500 грн;solar-markets.com.ua;;inverter;;
-Victron Energy MultiPlus-II 48/6k5/100-50 GX (6 кВт, 1 фаза, без MPPT);6000 Вт (6 кВт);51 759 грн;220volt.com.ua;;hybrid;no;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_ii_486500100_50_gx/
-Deye однофазний, 6000Вт, 6кВт, 48V, 48Вольт, для сонячних панелей, гібридне ДБЖ, для СЕС;6000 Вт (6 кВт);53 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2355444138-gibridnyj-invertor-deye.html
-6 квт 48в, гібридний, сонячний, 1ф, 6000 Вт, W, 48V, Deye;6000 Вт (6 кВт);54 700 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2355441714-invertor-kvt-48v.html
-Deye 6000 вт 48v, 6кВт, 6kW, 48вольт, для акумулятора 48V, сонячної станції;6000 Вт (6 кВт);54 700 грн;use.com.ua;60;hybrid;preorder;https://use.com.ua/ua/p2107991717-gibridnyj-invertor-deye.html
-гібридний Afore AF6K-SLP;6000 Вт (6 кВт);58 000 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_afore_af6k_slp/
-гібридний Solis S6-EH1P6K-L-PLUS;6000 Вт (6 кВт);60 637 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_gibridnyi_solis_s6_eh1p6k_l_plus/
-EcoFlow Power Ocean 6 kWh однофазний;6000 Вт (6 кВт);82 999 грн;220volt.com.ua;;hybrid;no;https://220volt.com.ua/ua/gibridnyi_invertor_ecoflow_power_ocean_6_kwh_odnofaznyi/
-Powmr Solar 6200W POW-HVM6.2M-48V-E, 48 В, 6200 Вт;6200 Вт (6.2 кВт);14 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-solar-6200w-pow-hvm6-2m-48v-e-48-v-6200-vt-bezperebiynik-ups-dbzh/
-Powmr Solar 6200W POW-HVM6.2M-48V, 48 В, 6200 Вт;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-solar-6200w-pow-hvm6-2m-48v-48-v-6200-vt-bezperebiynik-ups-dbzh/
-JYsupsys MPS-6200, 48 В, 120 А, 6200 Вт;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-jysupsys-mps-6200-48-v-120-a-6200-vt-bezperebiynik-ups-dbzh/
-M-Power, 48 В, 6200 Вт;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-m-power-48-v-6200-vt-bezperebiynik-ups-dbzh/
-Anenji ANJ-6200-48V-WIFI, 48 В, 6200 Вт;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-anenji-anj-6200-48v-wifi-48-v-6200-vt-bezperebiynik-ups-dbzh-uk/
-Powmr POW-HVM6.2K-48V-LIP, 48 В, 6200 Вт,;6200 Вт (6.2 кВт);16 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-pow-hvm6-2k-48v-lip-48-v-6200-vt-bezperebiynik-ups-dbzh/
-SKE SMART KEY ENERGY — гібридний SKE PH21-6.2K;6200 Вт (6.2 кВт);18 340 грн;220volt.com.ua;12;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_ske_ph21_62k/
-Powmr Solar 6200W POW-HVM6.2KP, 48 В, 6200 Вт;6200 Вт (6.2 кВт);18 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-solar-6200w-pow-hvm6-2kp-48-v-6200-vt-bezperebiynik-ups-dbzh/
-Anern AN-SCI-EVO-6200, 48 В, 6200 Вт;6200 Вт (6.2 кВт);19 490 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-anern-an-sci-evo-6200-48-v-6200-vt-bezperebiynik-ups-dbzh/
-Y&H 6.2 кВт 48В Y&H MPS-VIII ECO;6200 Вт (6.2 кВт);19 800 грн;antpower.com.ua;;inverter;;
-PowerMR PRO 6200W (48V);6200 Вт (6.2 кВт);20 600 грн;antpower.com.ua;;inverter;;
-ANENJI 6.2 кВт 48 В Wi-Fi MPPT 120 A;6200 Вт (6.2 кВт);20 980 грн;antpower.com.ua;;inverter;;
-BAISON — 6 кВт, 48 вольт, В, 6200 W, Вт, для сонячної станції;6200 Вт (6.2 кВт);21 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989983837-gibridnyj-invertor-kvt.html
-Anern AN-SCI-EVO-6200L (48V);6200 Вт (6.2 кВт);21 800 грн;antpower.com.ua;;inverter;;
-Daxtromn AGH-6.2KW, 48 В, 120 А, 6200 Вт;6200 Вт (6.2 кВт);21 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-daxtromn-agh-6-2kw-48-v-120-a-6200-vt-bezperebiynik-ups-dbzh/
-BAISON — сонячний 6,2 kW, 48 Volt, V, 6,2 kW, W, KVA, для сонячних станцій, правильна синусоїда, резервне живлення;6200 Вт (6.2 кВт);27 400 грн;use.com.ua;;inverter;yes;https://use.com.ua/ua/p2018935686-invertor-solnechnyj-volt.html
-Без бренду — для СЕС 6200Вт, 48V, Вольт, 6,2 кВт, Вт, АКБ, гібридне ДБЖ, однофазний інвертор;6200 Вт (6.2 кВт);28 400 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2336882945-invertor-dlya-ses.html
-ALLURE Prime MPS-VIII-6200w;6200 Вт (6.2 кВт);35 000 грн;220volt.com.ua;;hybrid;no;https://220volt.com.ua/ua/invertor-allure-prime-mps-viii-6200w/
-PowerMR POW-HVM6.5KP (48V);6500 Вт (6.5 кВт);23 600 грн;antpower.com.ua;;inverter;;
-Powmr POW-HVM6.5K-48V-P, 48 В, 6500 Вт;6500 Вт (6.5 кВт);31 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-pow-hvm6-5k-48v-p-48-v-6500-vt-bezperebiynik-ups-dbzh/
-LUXPOWER SNA PRO-EU 6.5K, 48 В, 6500 Вт, 140 А;6500 Вт (6.5 кВт);41 990 грн;ecodrive.in.ua;60;hybrid;yes;https://ecodrive.in.ua/gibridniy-invertor-luxpower-sna-pro-eu-6-5k-48-v-6500-vt-140-a-bezperebiynik-ups-dbzh/
-Victron Energy Quattro 48/8000 / 110-100 / 100;6500 Вт (6.5 кВт);110 552 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor-victron-energy-quattro-48-8000-110-100-100/
-TommaTech — для дома 7кВт,  7200 W, Вт, 48 В, V, резервне живлення, інвертор для акумуляторів;7200 Вт (7.2 кВт);26 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2448884267-invertor-dlya-budinku.html
-Orbus — 7 квт, 48В, 48V, 7200 W, Вт, гібридний;7200 Вт (7.2 кВт);33 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989914657-solnechnyj-invertor-kvt.html
-TommaTech — 7 квт, 1 фаза, 48В, 48V, 7200 W, Вт, гібридний;7200 Вт (7.2 кВт);34 000 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2343545880-solnechnyj-invertor-kvt.html
-Без бренду — 9 кВт, 48 вольт, В, 9200 W, Вт, для сонячної станції;7200 Вт (7.2 кВт);34 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989970023-gibridnyj-invertor-kvt.html
-TommaTech — для СЕС 7,2 кВт, 48Volt, 7,2kW, 7200Вт, гібридний, автономний, для сонячної електростанції, сонячних панелей;7200 Вт (7.2 кВт);64 400 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2241807492-invertor-dlya-ses.html
-TommaTech — сонячний 7,2 кВт, 48 В, вольт, V, 7200 Вт, W, для приватного будинку, житлового приміщення, 2 MPPT;7200 Вт (7.2 кВт);64 400 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2355368457-invertor-solnechnyj-kvt.html
-Felicity Solar IVEM8048-II, 48 В, 8000 Вт, 1 фаза;8000 Вт (8 кВт);27 890 грн;ecodrive.in.ua;24;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-felicity-ivem8048-ii-48-v-8000-vt-1-faza-bezperebiynik-ups-dbzh/
-SRNE — 5 квт, однофазний, 48В, 48V, 5 000 W, Вт, гібридний;8000 Вт (8 кВт);30 400 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2288518395-solnechnyj-invertor-kvt.html
-автономний Felicity IVEM8048-LV;8000 Вт (8 кВт);32 041 грн;220volt.com.ua;60;off_grid;no;https://220volt.com.ua/ua/invertor_gibridnyi_felicity_ivem8048_lv/
-Без бренду — 8кВт, 48 В, вольт, 8 kW, 8000W;8000 Вт (8 кВт);34 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1942488393-gibridnyj-solnechnyj-invertor.html
-Felicity Solar — чистий синус 8000Вт, 8 кВт, kW, 48 Вольт, В, для будинку, квартири, автономний інвертор, робота з акумуляторами Gel, AGM;8000 Вт (8 кВт);34 000 грн;use.com.ua;12;off_grid;yes;https://use.com.ua/ua/p2449094676-invertor-chistyj-sinus.html
-NetPRO — 8 кВт 48V, 8000 W, Вт, сонячний, для дому, сонячної станції;8000 Вт (8 кВт);35 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1942488372-gibridnyj-invertor-kvt.html
-Solis S6-EH1P8K-L-PLUS;8000 Вт (8 кВт);53 000 грн;solar-markets.com.ua;;inverter;;
-Без бренду — чистий синус, 8 кВт, 8000 W, 48 V, для квартири, будинку;8000 Вт (8 кВт);54 000 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2449075444-gibridnyj-invertor-chistyj.html
-NetPRO, Orion, 8кВт, 8000W, 8KW, 48V, 48 Вольт, В, 8000VA, гібридний, паралель, онлайн;8000 Вт (8 кВт);54 600 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1501432779-invertor-netpro-orion.html
-сонячний NetPRO, Orion-II 8000W, (20 см х 40см х 50см), білий;8000 Вт (8 кВт);54 600 грн;use.com.ua;24;hybrid;preorder;https://use.com.ua/ua/p2021805193-gibridnyj-invertor-solnechnyj.html
-GoodWe GW8000-ES-C10, 48 В, 8000 Вт, 160 А, 1 фаза (ES Series, безперебійник, UPS, ДБЖ);8000 Вт (8 кВт);55 990 грн;ecodrive.in.ua;120;hybrid;preorder;https://ecodrive.in.ua/gibridniy-invertor-goodwe-gw8000-es-c10-48-v-8000-vt-160-a-1-faza-es-series-bezperebiynik-ups-dbzh/
-Deye SUN-8K-SG06LP1-EU-BM3, 48 В, 8000 Вт, 1 фаза;8000 Вт (8 кВт);59 990 грн;ecodrive.in.ua;60;hybrid;preorder;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-8k-sg06lp1-eu-bm3-48-v-8000-vt-1-faza-bezperebiynik-ups-dbzh/
-Deye SUN-8K-SG05LP1-EU-AM2-P, 48 В, 8000 Вт, 1 фаза;8000 Вт (8 кВт);59 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-8k-sg05lp1-eu-48-v-8000-vt-1-faza-bezperebiynik-ups-dbzh/
-SRNE — 8000 W, 48V, гібридний, для сонячної електростанції;8000 Вт (8 кВт);67 400 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2288520154-solnechnyj-invertor-8000.html
-гібридний мережевий Deye SUN-8k-Sg01lp1-EU WiFi;8000 Вт (8 кВт);69 600 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor-gibridnij-setevoj-deye-sun-8k-sg01lp1-eu-wifi/
-Anern — 10 квт, 3 фази, 48В, 48V, 10 200 W, Вт, гібридний;8000 Вт (8 кВт);73 500 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2345111806-solnechnyj-invertor-kvt.html
-Victron Energy MultiPlus-II 48/8000/110-100/100;8000 Вт (8 кВт);76 530 грн;220volt.com.ua;60;inverter;no;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_ii_488000110_100100/
-SRNE ASP4880S180-H;8000 Вт (8 кВт);78 353 грн;220volt.com.ua;24;hybrid;yes;https://220volt.com.ua/ua/gibridnyi_invertor_srne_asp4880s180_h/
-гібридний Deye AI-W5.1-8K-SG01LP1-EU;8000 Вт (8 кВт);88 032 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_deye_ai_w51_8k_sg01lp1_eu/
-гібридний Solis S6-EH1P8K-L-PLUS;8000 Вт (8 кВт);92 273 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_gibridnyi_solis_s6_eh1p8k_l_plus/
-Victron Energy Quattro 48/10000 / 140-100 / 100;8000 Вт (8 кВт);121 102 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor-victron-energy-quattro-48-10000-140-100-100/
-Anern AN-SCI-EVO-8200, 48 В, 8200 Вт;8200 Вт (8.2 кВт);25 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-anern-an-sci-evo-8200-48-v-8200-vt-bezperebiynik-ups-dbzh/
-Daxtromn AGH-8.2KW, 48 В, 140 А, 8200 Вт;8200 Вт (8.2 кВт);27 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-daxtromn-agh-8-2kw-48-v-140-a-8200-vt-bezperebiynik-ups-dbzh/
-SUMRY — 8200W, 8 KW, кВт, 48V, контролер MPPT, автономний, чиста синусоїда;8200 Вт (8.2 кВт);35 600 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p2853460659-invertor-8200w-8kw.html
-Powmr Solar 8200W POW-HVM8.2M-48V, 48 В, 8200 Вт;8200 Вт (8.2 кВт);44 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-solar-8200w-pow-hvm8-2m-48v-48-v-8200-vt-bezperebiynik-ups-dbzh/
-Rayssa, 48 В, 8600 Вт, 150 A;8600 Вт (8.6 кВт);31 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-rayssa-48-v-8600-vt-150-a-bezperebiynik-ups-dbzh/
-Must PV18-10048PRO, 48 В, 150 А, 10000 Вт;10000 Вт (10 кВт);20 239 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-must-pv18-10048pro-48-v-150-a-10000-vt-bezperebiynik-ups-dbzh/
-Must PV19-10048EXP, 48 В, 150 А, 10000 Вт (високочастотний безперебійник, WI-FI, UPS, ДБЖ);10000 Вт (10 кВт);33 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-must-pv19-10048exp-48-v-150-a-10000-vt-visokochastotniy-bezperebiynik-wi-fi-ups-dbzh/
-Powmr POW-RELAB-10KE NEW 2024, 48 В, 10000 Вт (низькочастотний інвертор, безперебійник, UPS, ДБЖ);10000 Вт (10 кВт);54 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-powmr-pow-relab-10ke-new-2024-48-v-10000-vt-nizkochastotniy-invertor-bezperebiynik-ups-dbzh/
-Must — Тихий інвертор 10 kW, кВт, 10000Вт, 48В, 48V, гібридний інвертор, пасивне охолодження;10000 Вт (10 кВт);71 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2865172459-tihij-invertor-kvt.html
-Must — гібридний 10кВт, 48 вольт, volt, охолодження, однофазний, 1 фаза;10000 Вт (10 кВт);71 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2934193572-invertor-gibridnyj-10kvt.html
-SRNE ASP48100S200-H;10000 Вт (10 кВт);81 375 грн;220volt.com.ua;24;hybrid;yes;https://220volt.com.ua/ua/gibridnyi_invertor_srne_asp48100s200_h/
-гібридний мережевий DEYE SUN-10K-SG02LP1-EU-AM3;10000 Вт (10 кВт);86 339 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor-gibridnyj-setevoj-deye-sun-10k-sg02lp1-eu-am3/
-Victron Energy MultiPlus-II 48/10000/140-100/100;10000 Вт (10 кВт);86 933 грн;220volt.com.ua;60;inverter;yes;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_ii_4810000140_100100/
-Deye SUN-10K-SG02LP1-EU-AM3, 48 В, 10000 Вт, 1 фаза;10000 Вт (10 кВт);93 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-10k-sg02lp1-eu-am3-48-v-10000-vt-1-faza-bezperebiynik-ups-dbzh/
-Anern AN-SCI-EVO-10200, 48 В, 10200 Вт;10200 Вт (10.2 кВт);24 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-anern-an-sci-evo-10200-48-v-10200-vt-bezperebiynik-ups-dbzh/
-SKE SMART KEY ENERGY — гібридний SKE PH21-10.2K;10200 Вт (10.2 кВт);26 593 грн;220volt.com.ua;12;hybrid;no;https://220volt.com.ua/ua/invertor_gibridnyi_ske_ph21_102k/
-Y&H / ECGSOLAX MPS-MAX 10.2 кВт (48V);10200 Вт (10.2 кВт);34 600 грн;antpower.com.ua;;inverter;;
-SUMRY — 10кВт, 10000Вт, 48 В, вольт, інвертор для квартири, будинку;10200 Вт (10.2 кВт);36 000 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p2853459566-avtonomnyj-invertor-10kvt.html
-PowerMR Pro 10200W (40-60V) POW-HVM10.2M;10200 Вт (10.2 кВт);38 800 грн;antpower.com.ua;;inverter;;
-Anern — 48В, 10 кВт, kW, 48 Вольт, V, АКБ, для СЕС, однофазний, гібридний, зарядний пристрій;10200 Вт (10.2 кВт);68 300 грн;use.com.ua;12;hybrid;yes;https://use.com.ua/ua/p2355388646-gibridnyj-solnechnyj-invertor.html
-PowMr POW-HVM11KP 11 кВт (48V);11000 Вт (11 кВт);32 800 грн;antpower.com.ua;;inverter;;
-Orbus — 11000 вт 48v, 11кВт, 5kW, 48вольт, для акумулятора 48V, сонячної станції;11000 Вт (11 кВт);33 500 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p1989935962-gibridnyj-invertor-11000.html
-Без бренду — 11 квт 48в, гібридний, сонячний, 1ф,11000 Вт, W, 48V;11000 Вт (11 кВт);33 500 грн;use.com.ua;24;hybrid;yes;https://use.com.ua/ua/p2107992313-invertor-kvt-48v.html
-DATOUBOSS 11 кВт 48В WiFi BMS;11000 Вт (11 кВт);33 800 грн;antpower.com.ua;;inverter;;
-Orbus — автономний 11 кВт, 48В, 11000W, Вт для комплекту живлення на 11 000W, Вт, під сонячні панелі;11000 Вт (11 кВт);34 000 грн;use.com.ua;;off_grid;yes;https://use.com.ua/ua/p2326124611-invertor-avtonomnyj-11kvt.html
-Techfine GA-11048JMH, 48 В, 11000 Вт (WI-FI, безперебійник, UPS, ДБЖ);11000 Вт (11 кВт);34 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-techfine-ga-11048jmh-48-v-11000-vt-bezperebiynik-ups-dbzh/
-TommaTech — 11 кВт, 48 вольт, В, 11000 W, Вт, для сонячної станції;11000 Вт (11 кВт);40 000 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2343396886-gibridnyj-invertor-kvt.html
-TommaTech — для сонячної станції, 48 V, Volt, 11 кВт, Вт, чиста синусоїда, гібридний, для СЕС, АКБ;11000 Вт (11 кВт);74 900 грн;use.com.ua;;hybrid;yes;https://use.com.ua/ua/p2355363340-invertor-dlya-solnechnoj.html
-PowerMR POW-HVM12KP 12 кВт (48V);12000 Вт (12 кВт);34 700 грн;antpower.com.ua;;inverter;;
-Must PV18-12048PRO, 48 В, 150 А, 12000 Вт;12000 Вт (12 кВт);38 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-must-pv18-12048pro-48-v-150-a-12000-vt-bezperebiynik-ups-dbzh/
-LUXPOWER SNA-EU 12000, 48 В, 12000 Вт, 250 А;12000 Вт (12 кВт);46 990 грн;ecodrive.in.ua;24;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-luxpower-sna-eu-12000-48-v-12000-vt-250-a-bezperebiynik-ups-dbzh/
-LUXPOWER GEN Pro 12KW, 48 В, 12000 Вт, 270 А;12000 Вт (12 кВт);51 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-luxpower-gen-pro-12kw-48-v-12000-vt-270-a-bezperebiynik-ups-dbzh/
-GoodWe GW12K-ES-C10, 48 В, 12000 Вт, 240 А, 1 фаза (ES Series, безперебійник, UPS, ДБЖ);12000 Вт (12 кВт);68 990 грн;ecodrive.in.ua;120;hybrid;preorder;https://ecodrive.in.ua/gibridniy-invertor-goodwe-gw12k-es-c10-48-v-12000-vt-240-a-1-faza-es-series-bezperebiynik-ups-dbzh/
-PowerMR SunSmart 12KW (48V);12000 Вт (12 кВт);69 400 грн;antpower.com.ua;;inverter;;
-Без бренду — Автономний гібридний інвертор 48V, 10000W, 10 кВт, 2 МРРТ, для сонячних панелей, акумуляторів;12000 Вт (12 кВт);75 000 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2449089796-avtonomnyj-gibridnyj-invertor.html
-Deye SUN-12K-SG02LP1-EU-AM3, 48 В, 12000 Вт, 1 фаза;12000 Вт (12 кВт);81 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-12k-sg02lp1-eu-am3-48-v-12000-vt-1-faza-bezperebiynik-ups-dbzh/
-DEYE SUN-12K-SG02LP1-EU-AM3;12000 Вт (12 кВт);85 500 грн;solar-markets.com.ua;;inverter;;
-гібридний мережевий DEYE SUN-12K-SG02LP1-EU-AM3;12000 Вт (12 кВт);91 242 грн;220volt.com.ua;;hybrid;yes;https://220volt.com.ua/ua/invertor-gibridnyj-setevoj-deye-sun-12k-sg02lp1-eu-am3/
-Без бренду — 12кВт, 48 В, вольт, 12 kW, 12000W;12000 Вт (12 кВт);92 000 грн;use.com.ua;60;hybrid;yes;https://use.com.ua/ua/p2334477180-gibridnyj-solnechnyj-invertor.html
-Victron Energy MultiPlus-II 48/15000/200-100 230V;12000 Вт (12 кВт);161 680 грн;220volt.com.ua;60;hybrid;yes;https://220volt.com.ua/ua/invertor_victron_energy_multiplus_ii_4815000200_100_230v_pmp483150000/
-Anern AN-SCI-EVO-13200, 48 В, 13200 Вт;13200 Вт (13.2 кВт);28 990 грн;ecodrive.in.ua;;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-anern-an-sci-evo-13200-48-v-13200-vt-bezperebiynik-ups-dbzh/
-Powmr POW-HVM13.2M, 48 В, 13200 Вт;13200 Вт (13.2 кВт);35 990 грн;ecodrive.in.ua;;hybrid;yes;https://ecodrive.in.ua/gibridniy-invertor-powmr-pow-hvm13-2m-48-v-13200-vt-bezperebiynik-ups-dbzh/
-LUXPOWER SNA2-EU-LT 14kW, 48 В, 14000 Вт, 270 А;14000 Вт (14 кВт);45 990 грн;ecodrive.in.ua;24;hybrid;yes;https://ecodrive.in.ua/gibridniy-invertor-luxpower-sna2-eu-lt-14kw-48-v-14000-vt-270-a-bezperebiynik-ups-dbzh/
-LUXPOWER SNA-EU 14000, 48 В, 14000 Вт, 270 А;14000 Вт (14 кВт);46 990 грн;ecodrive.in.ua;24;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-luxpower-sna-eu-14000-48-v-12000-vt-270-a-bezperebiynik-ups-dbzh/
-Luxpower SNA2-EU-LT 14K (14 кВт, 1 фаза);14000 Вт (14 кВт);63 111 грн;220volt.com.ua;24;hybrid;yes;https://220volt.com.ua/ua/invertor_luxpower_sna2_eu_lt_14k_14_kvt_1_faza/
-Deye SUN-16K-SG01LP1-EU, 48 В, 16000 Вт, 1 фаза;16000 Вт (16 кВт);95 990 грн;ecodrive.in.ua;60;hybrid;no;https://ecodrive.in.ua/gibridniy-invertor-deye-sun-16k-sg01lp1-eu-48-v-16000-vt-1-faza-bezperebiynik-ups-dbzh/
-Deye SUN-16K-SG01LP1-EU;16000 Вт (16 кВт);99 278 грн;ua.axioma.energy;;inverter;;
-гібридний DEYE SUN-16K-SG01LP1-EU (SUN-16K-SG02LP1-EU);16000 Вт (16 кВт);167 410 грн;220volt.com.ua;60;hybrid;no;https://220volt.com.ua/ua/invertor_setevoi_deye_sun_16k_sg01lp1_eu/
+﻿Марка інвертора;Потужність;Ціна;Джерело (сайт)
+Europower — 2 кВт 48V;2100 Вт (2.1 кВт);26 200 грн;use.com.ua
+Victron Energy MultiPlus-II 48/3000/35-32 230V GX;2400 Вт (2.4 кВт);38 138 грн;220volt.com.ua
+Victron Energy MultiPlus 48/3000 / 35-50;2400 Вт (2.4 кВт);45 212 грн;220volt.com.ua
+Victron Energy EasySolar-II 48/3000/35-32 MPPT 250/70 GX;2400 Вт (2.4 кВт);84 186 грн;220volt.com.ua
+Ritar — 4 кВт;3000 Вт (3 кВт);23 500 грн;use.com.ua
+Ritar — 4 кВт;3000 Вт (3 кВт);24 000 грн;use.com.ua
+Без бренду — 3,5кВт;3500 Вт (3.5 кВт);19 500 грн;use.com.ua
+Europower — 3500 W;3500 Вт (3.5 кВт);37 100 грн;use.com.ua
+Logicpower LPY-C-PSW-5000VA;3500 Вт (3.5 кВт);41 257 грн;220volt.com.ua
+Без бренду — 3 кВт 48V;3680 Вт (3.68 кВт);33 100 грн;use.com.ua
+Без бренду — 3,68 кВт;3680 Вт (3.68 кВт);37 000 грн;use.com.ua
+EcoFlow Power Ocean 3,68 kWh однофазний;3680 Вт (3.68 кВт);76 999 грн;220volt.com.ua
+Orbus — 4 квт 48в;4000 Вт (4 кВт);20 500 грн;use.com.ua
+Orbus — для сонячної станції;4000 Вт (4 кВт);25 000 грн;use.com.ua
+Victron Energy MultiPlus-II 48/4k5/55-32;4000 Вт (4 кВт);34 273 грн;220volt.com.ua
+Victron Energy MultiPlus-II 48/4k5/55-32 230V GX;4000 Вт (4 кВт);38 311 грн;220volt.com.ua
+Victron Energy MultiPlus-II 48/5000/70-50;4000 Вт (4 кВт);41 697 грн;220volt.com.ua
+Victron Energy MultiPlus 48/5000/70-100 230V VE.Bus;4000 Вт (4 кВт);77 494 грн;220volt.com.ua
+Victron Energy Quattro-II 48/5000/70-50/50 230V;4000 Вт (4 кВт);82 498 грн;220volt.com.ua
+Victron Energy EasySolar-II 48/5000/70-50 MPPT 250/100 GX;4000 Вт (4 кВт);118 711 грн;220volt.com.ua
+Europower — 3кВт;5000 Вт (5 кВт);14 000 грн;use.com.ua
+Must PV18-5048VHM;5000 Вт (5 кВт);15 990 грн;ecodrive.in.ua
+Must PV18-5048VHM;5000 Вт (5 кВт);16 990 грн;ecodrive.in.ua
+Felicity IVEM5048-LV;5000 Вт (5 кВт);17 165 грн;220volt.com.ua
+Без бренду — 5 квт;5000 Вт (5 кВт);19 500 грн;use.com.ua
+Без бренду — BRAZZERS 5000W;5000 Вт (5 кВт);19 600 грн;use.com.ua
+Must online;5000 Вт (5 кВт);19 600 грн;use.com.ua
+RITAR 5000W;5000 Вт (5 кВт);19 800 грн;use.com.ua
+TommaTech — 5 кВт;5000 Вт (5 кВт);20 400 грн;use.com.ua
+TommaTech — 5 квт;5000 Вт (5 кВт);20 400 грн;use.com.ua
+Lexron — 5 кВт;5000 Вт (5 кВт);20 500 грн;use.com.ua
+Orbus — 5 кВт 48V;5000 Вт (5 кВт);20 500 грн;use.com.ua
+Orbus — 5 кВт;5000 Вт (5 кВт);20 500 грн;use.com.ua
+TommaTech — для дома 5 кВт;5000 Вт (5 кВт);20 500 грн;use.com.ua
+Без бренду — 5 квт;5000 Вт (5 кВт);21 000 грн;use.com.ua
+Без бренду — 5 кВт 48V;5000 Вт (5 кВт);21 000 грн;use.com.ua
+Must — 48В 5кВт;5000 Вт (5 кВт);21 400 грн;use.com.ua
+Без бренду — 5 кВт;5000 Вт (5 кВт);21 800 грн;use.com.ua
+Smart — 5 квт 48в;5000 Вт (5 кВт);22 000 грн;use.com.ua
+LUXPOWER SNA5000 WPV;5000 Вт (5 кВт);23 900 грн;ecodrive.in.ua
+NetPRO — 5000 вт 48v;5000 Вт (5 кВт);25 000 грн;use.com.ua
+NetPRO — 5 квт;5000 Вт (5 кВт);25 000 грн;use.com.ua
+Lexron — 5кВт;5000 Вт (5 кВт);26 000 грн;use.com.ua
+Без бренду — для сонячної станції;5000 Вт (5 кВт);26 000 грн;use.com.ua
+Без бренду — 48V 5kW;5000 Вт (5 кВт);26 000 грн;use.com.ua
+Без бренду — 48V;5000 Вт (5 кВт);26 000 грн;use.com.ua
+Felicity IVEM 5КВА 48В (38372);5000 Вт (5 кВт);26 820 грн;220volt.com.ua
+TommaTech — для дому 5кВт;5000 Вт (5 кВт);27 000 грн;use.com.ua
+Must — для квартири 5квт;5000 Вт (5 кВт);28 000 грн;use.com.ua
+Logicpower LPW-HY-5032-5000VA;5000 Вт (5 кВт);28 728 грн;220volt.com.ua
+GOODWE GW5000-ES-20;5000 Вт (5 кВт);29 990 грн;ecodrive.in.ua
+SRNE — 5 квт 48в;5000 Вт (5 кВт);30 400 грн;use.com.ua
+SRNE HFP4850S80-145;5000 Вт (5 кВт);30 690 грн;220volt.com.ua
+Luxpower SNA5000 Wide PV;5000 Вт (5 кВт);31 040 грн;220volt.com.ua
+NetPRO — 5 kW;5000 Вт (5 кВт);31 200 грн;use.com.ua
+Felicity T-REX-5KLP1G01;5000 Вт (5 кВт);31 469 грн;220volt.com.ua
+LuxPower;5000 Вт (5 кВт);32 800 грн;use.com.ua
+LuxPower SNA5000 WPV 5кВт 1 фаза з МРРТ контролером для сонячних станцій систем;5000 Вт (5 кВт);32 800 грн;use.com.ua
+Luxpower — 5 кВт;5000 Вт (5 кВт);32 800 грн;use.com.ua
+SRNE HFP4850S80-H;5000 Вт (5 кВт);33 713 грн;220volt.com.ua
+NetPRO — 5000Вт;5000 Вт (5 кВт);33 800 грн;use.com.ua
+NetPRO — 5000 W;5000 Вт (5 кВт);33 800 грн;use.com.ua
+NetPRO — Phaeton II;5000 Вт (5 кВт);33 800 грн;use.com.ua
+Powmr POW-RELAB-5KE NEW 2024;5000 Вт (5 кВт);34 990 грн;ecodrive.in.ua
+Afore — Безшумний інвертор 5кВт;5000 Вт (5 кВт);36 500 грн;use.com.ua
+Deye — 5кВт;5000 Вт (5 кВт);38 000 грн;use.com.ua
+TommaTech — 5кВт;5000 Вт (5 кВт);38 200 грн;use.com.ua
+TommaTech — 5 кВт;5000 Вт (5 кВт);38 200 грн;use.com.ua
+LuxPower LXP 5K Hybrid-MG;5000 Вт (5 кВт);38 973 грн;220volt.com.ua
+Afore — 5кВт;5000 Вт (5 кВт);39 000 грн;use.com.ua
+Deye SUN-5K-SG03LP1-EU;5000 Вт (5 кВт);40 990 грн;ecodrive.in.ua
+Deye SUN-5K-SG05LP1-EU;5000 Вт (5 кВт);40 990 грн;ecodrive.in.ua
+Без бренду — 5000W;5000 Вт (5 кВт);41 500 грн;use.com.ua
+Deye SUN-5K-SG06LP1-EU-BM2;5000 Вт (5 кВт);41 990 грн;ecodrive.in.ua
+Без бренду — 48В;5000 Вт (5 кВт);43 700 грн;use.com.ua
+Deye 5кВт;5000 Вт (5 кВт);44 800 грн;use.com.ua
+Deye SUN-5K-SG03LP1;5000 Вт (5 кВт);45 850 грн;220volt.com.ua
+Dyness D5.0K-LS (5 кВт;5000 Вт (5 кВт);46 605 грн;220volt.com.ua
+Livoltek Hyper-5000 48 В;5000 Вт (5 кВт);49 990 грн;ecodrive.in.ua
+Afore AF5K-SLP;5000 Вт (5 кВт);50 618 грн;220volt.com.ua
+Victron Energy MultiPlus-II 48/5000/70-50 GX;5000 Вт (5 кВт);52 866 грн;220volt.com.ua
+Deye SUN-5K-SG03LP1-EU;5000 Вт (5 кВт);54 630 грн;deye.com.ua
+Без бренду — ДБЖ 5 кВт;5000 Вт (5 кВт);60 000 грн;use.com.ua
+Без бренду — 48 Вольт;5000 Вт (5 кВт);60 000 грн;use.com.ua
+EcoFlow Power Ocean 5 kWh однофазний;5000 Вт (5 кВт);78 999 грн;220volt.com.ua
+Victron Energy Multi RS Solar 48/6000/100-450/80;5000 Вт (5 кВт);86 038 грн;220volt.com.ua
+Must PV18-5248PRO;5200 Вт (5.2 кВт);21 990 грн;ecodrive.in.ua
+Must — 5кВт;5200 Вт (5.2 кВт);28 000 грн;use.com.ua
+MUST PV18-5248PRO (28908);5200 Вт (5.2 кВт);28 608 грн;220volt.com.ua
+Daxtromn HGP-5500W;5500 Вт (5.5 кВт);12 990 грн;ecodrive.in.ua
+Daxtromn SC-HFK-5500-48;5500 Вт (5.5 кВт);14 990 грн;ecodrive.in.ua
+SUMRY HGS-5500W;5500 Вт (5.5 кВт);23 464 грн;220volt.com.ua
+Off-grid SUMRY HGP-5500W 5kW;5500 Вт (5.5 кВт);25 309 грн;220volt.com.ua
+Без бренду — 5500W;5500 Вт (5.5 кВт);26 000 грн;use.com.ua
+NetPRO — 5 кВт;5600 Вт (5.6 кВт);25 000 грн;use.com.ua
+NetPRO — для СЕС 48вольт;5600 Вт (5.6 кВт);31 200 грн;use.com.ua
+Growatt SPF 6000 ES Plus;6000 Вт (6 кВт);18 990 грн;ecodrive.in.ua
+Must PH19-6048EXP;6000 Вт (6 кВт);19 990 грн;ecodrive.in.ua
+Altek — 48 В;6000 Вт (6 кВт);20 000 грн;use.com.ua
+Daxtromn NM-6.2KW-M-PLUS;6000 Вт (6 кВт);20 990 грн;ecodrive.in.ua
+Felicity Solar IVEM6048-II;6000 Вт (6 кВт);21 990 грн;ecodrive.in.ua
+Ritar — 6000W;6000 Вт (6 кВт);25 700 грн;use.com.ua
+Deye SUN-6K-OG01LP1-EU-AM2;6000 Вт (6 кВт);25 905 грн;220volt.com.ua
+Altek — 6кВт;6000 Вт (6 кВт);27 600 грн;use.com.ua
+Luxpower SNA6000 Wide PV;6000 Вт (6 кВт);29 344 грн;220volt.com.ua
+LUXPOWER LXP6K;6000 Вт (6 кВт);31 990 грн;ecodrive.in.ua
+Must — 6кВт;6000 Вт (6 кВт);32 700 грн;use.com.ua
+Afore — 6000 вт 48v;6000 Вт (6 кВт);33 000 грн;use.com.ua
+Без бренду — 6 квт 48в;6000 Вт (6 кВт);33 500 грн;use.com.ua
+GOODWE GW6000-ES-20;6000 Вт (6 кВт);35 990 грн;ecodrive.in.ua
+Afore — Тихий інвертор 6кВт;6000 Вт (6 кВт);36 500 грн;use.com.ua
+Без бренду — 48 В;6000 Вт (6 кВт);37 000 грн;use.com.ua
+Afore — Безшумний інвертор гібридний 6кВт;6000 Вт (6 кВт);40 000 грн;use.com.ua
+Afore — для СЕС 6кВт;6000 Вт (6 кВт);42 600 грн;use.com.ua
+Deye SUN-6K-SG05LP1-EU;6000 Вт (6 кВт);44 566 грн;220volt.com.ua
+Без бренду — 6 квт;6000 Вт (6 кВт);45 000 грн;use.com.ua
+Без бренду — чистий синус з функцією зарядки;6000 Вт (6 кВт);45 000 грн;use.com.ua
+Livoltek Hyper-6000 48 В;6000 Вт (6 кВт);46 540 грн;ecodrive.in.ua
+Deye SUN-6K-SG06LP1-EU-BM2;6000 Вт (6 кВт);46 990 грн;ecodrive.in.ua
+Deye SUN-6K-SG06LP1-EU-BM2;6000 Вт (6 кВт);47 900 грн;220volt.com.ua
+Dyness D6.0K-LS (6 кВт;6000 Вт (6 кВт);47 900 грн;220volt.com.ua
+Victron Energy MultiPlus-II 48/6k5/100-50;6000 Вт (6 кВт);48 416 грн;220volt.com.ua
+Без бренду — 6000Вт;6000 Вт (6 кВт);48 600 грн;use.com.ua
+Без бренду — 48 В;6000 Вт (6 кВт);48 600 грн;use.com.ua
+Deye SUN-6K-SG03LP1-EU;6000 Вт (6 кВт);49 060 грн;220volt.com.ua
+Deye SUN-6K-SG05LP1-EU-AM2-P;6000 Вт (6 кВт);49 990 грн;ecodrive.in.ua
+Deye SUN-6K-SG05LP1-EU-AM2-P;6000 Вт (6 кВт);51 500 грн;solar-markets.com.ua
+Victron Energy MultiPlus-II 48/6k5/100-50 GX (6 кВт;6000 Вт (6 кВт);51 759 грн;220volt.com.ua
+Deye однофазний;6000 Вт (6 кВт);53 000 грн;use.com.ua
+Deye — 6 квт 48в;6000 Вт (6 кВт);54 700 грн;use.com.ua
+Deye 6000 вт 48v;6000 Вт (6 кВт);54 700 грн;use.com.ua
+DEYE SUN-6K-SG04LP3-EU (3 фази);6000 Вт (6 кВт);55 536 грн;220volt.com.ua
+Afore AF6K-SLP;6000 Вт (6 кВт);58 000 грн;220volt.com.ua
+Solis S6-EH1P6K-L-PLUS;6000 Вт (6 кВт);60 637 грн;220volt.com.ua
+EcoFlow Power Ocean 6 kWh однофазний;6000 Вт (6 кВт);82 999 грн;220volt.com.ua
+Powmr Solar 6200W POW-HVM6.2M-48V-E;6200 Вт (6.2 кВт);14 990 грн;ecodrive.in.ua
+Powmr Solar 6200W POW-HVM6.2M-48V;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua
+JYsupsys MPS-6200;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua
+M-Power;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua
+Anenji ANJ-6200-48V-WIFI;6200 Вт (6.2 кВт);15 990 грн;ecodrive.in.ua
+Powmr POW-HVM6.2K-48V-LIP;6200 Вт (6.2 кВт);16 990 грн;ecodrive.in.ua
+SKE SMART KEY ENERGY — SKE PH21-6.2K;6200 Вт (6.2 кВт);18 340 грн;220volt.com.ua
+Powmr Solar 6200W POW-HVM6.2KP;6200 Вт (6.2 кВт);18 990 грн;ecodrive.in.ua
+Anern AN-SCI-EVO-6200;6200 Вт (6.2 кВт);19 490 грн;ecodrive.in.ua
+Y&H 6.2 кВт 48В Y&H MPS-VIII ECO;6200 Вт (6.2 кВт);19 800 грн;antpower.com.ua
+PowerMR PRO 6200W (48V);6200 Вт (6.2 кВт);20 600 грн;antpower.com.ua
+ANENJI 6.2 кВт 48 В Wi-Fi MPPT 120 A;6200 Вт (6.2 кВт);20 980 грн;antpower.com.ua
+BAISON — 6 кВт;6200 Вт (6.2 кВт);21 000 грн;use.com.ua
+Anern AN-SCI-EVO-6200L (48V);6200 Вт (6.2 кВт);21 800 грн;antpower.com.ua
+Daxtromn AGH-6.2KW;6200 Вт (6.2 кВт);21 990 грн;ecodrive.in.ua
+PowerMR PRO 6200LIP (48V) POW-HVM6.2K-48V-LIP (3 фази);6200 Вт (6.2 кВт);23 800 грн;antpower.com.ua
+BAISON — 6,2 kW;6200 Вт (6.2 кВт);27 400 грн;use.com.ua
+Без бренду — для СЕС 6200Вт;6200 Вт (6.2 кВт);28 400 грн;use.com.ua
+ALLURE Prime MPS-VIII-6200w;6200 Вт (6.2 кВт);35 000 грн;220volt.com.ua
+WHCO — 6кВт (3 фази);6500 Вт (6.5 кВт);21 000 грн;use.com.ua
+PowerMR POW-HVM6.5KP (48V);6500 Вт (6.5 кВт);23 600 грн;antpower.com.ua
+Powmr POW-HVM6.5K-48V-P;6500 Вт (6.5 кВт);31 990 грн;ecodrive.in.ua
+LUXPOWER SNA PRO-EU 6.5K;6500 Вт (6.5 кВт);41 990 грн;ecodrive.in.ua
+Victron Energy Quattro 48/8000 / 110-100 / 100;6500 Вт (6.5 кВт);110 552 грн;220volt.com.ua
+TommaTech — для дома 7кВт;7200 Вт (7.2 кВт);26 000 грн;use.com.ua
+Orbus — 7 квт;7200 Вт (7.2 кВт);33 000 грн;use.com.ua
+TommaTech — 7 квт;7200 Вт (7.2 кВт);34 000 грн;use.com.ua
+Без бренду — 9 кВт;7200 Вт (7.2 кВт);34 000 грн;use.com.ua
+TommaTech — для СЕС 7,2 кВт;7200 Вт (7.2 кВт);64 400 грн;use.com.ua
+TommaTech — 7,2 кВт;7200 Вт (7.2 кВт);64 400 грн;use.com.ua
+Felicity Solar IVEM8048-II;8000 Вт (8 кВт);27 890 грн;ecodrive.in.ua
+SRNE — 5 квт;8000 Вт (8 кВт);30 400 грн;use.com.ua
+Felicity IVEM8048-LV;8000 Вт (8 кВт);32 041 грн;220volt.com.ua
+Без бренду — 8кВт;8000 Вт (8 кВт);34 000 грн;use.com.ua
+Felicity Solar — чистий синус 8000Вт;8000 Вт (8 кВт);34 000 грн;use.com.ua
+NetPRO — 8 кВт 48V;8000 Вт (8 кВт);35 000 грн;use.com.ua
+Solis S6-EH1P8K-L-PLUS;8000 Вт (8 кВт);53 000 грн;solar-markets.com.ua
+Без бренду — чистий синус;8000 Вт (8 кВт);54 000 грн;use.com.ua
+NetPRO;8000 Вт (8 кВт);54 600 грн;use.com.ua
+NetPRO;8000 Вт (8 кВт);54 600 грн;use.com.ua
+GoodWe GW8000-ES-C10;8000 Вт (8 кВт);55 990 грн;ecodrive.in.ua
+Deye SUN-8K-SG06LP1-EU-BM3;8000 Вт (8 кВт);59 990 грн;ecodrive.in.ua
+Deye SUN-8K-SG05LP1-EU-AM2-P;8000 Вт (8 кВт);59 990 грн;ecodrive.in.ua
+SRNE — 8000 W;8000 Вт (8 кВт);67 400 грн;use.com.ua
+Deye SUN-8K-SG05LP3-EU-SM2 (3 фази);8000 Вт (8 кВт);69 490 грн;ecodrive.in.ua
+Deye SUN-8k-Sg01lp1-EU WiFi;8000 Вт (8 кВт);69 600 грн;220volt.com.ua
+Anern — 10 квт;8000 Вт (8 кВт);73 500 грн;use.com.ua
+Victron Energy MultiPlus-II 48/8000/110-100/100;8000 Вт (8 кВт);76 530 грн;220volt.com.ua
+SRNE ASP4880S180-H;8000 Вт (8 кВт);78 353 грн;220volt.com.ua
+Deye AI-W5.1-8K-SG01LP1-EU;8000 Вт (8 кВт);88 032 грн;220volt.com.ua
+Solis S6-EH1P8K-L-PLUS;8000 Вт (8 кВт);92 273 грн;220volt.com.ua
+Victron Energy Quattro 48/10000 / 140-100 / 100;8000 Вт (8 кВт);121 102 грн;220volt.com.ua
+Anern AN-SCI-EVO-8200;8200 Вт (8.2 кВт);25 990 грн;ecodrive.in.ua
+Daxtromn AGH-8.2KW;8200 Вт (8.2 кВт);27 990 грн;ecodrive.in.ua
+SUMRY — 8200W;8200 Вт (8.2 кВт);35 600 грн;use.com.ua
+Powmr Solar 8200W POW-HVM8.2M-48V;8200 Вт (8.2 кВт);44 990 грн;ecodrive.in.ua
+Rayssa;8600 Вт (8.6 кВт);31 990 грн;ecodrive.in.ua
+Must PV18-10048PRO;10000 Вт (10 кВт);20 239 грн;ecodrive.in.ua
+Must PV19-10048EXP;10000 Вт (10 кВт);33 990 грн;ecodrive.in.ua
+Без бренду — 10 кВт 48V (3 фази);10000 Вт (10 кВт);36 000 грн;use.com.ua
+Powmr POW-RELAB-10KE NEW 2024;10000 Вт (10 кВт);54 990 грн;ecodrive.in.ua
+Без бренду — 10кВт (3 фази);10000 Вт (10 кВт);61 800 грн;use.com.ua
+Must — Тихий інвертор 10 kW;10000 Вт (10 кВт);71 500 грн;use.com.ua
+Must — 10кВт;10000 Вт (10 кВт);71 500 грн;use.com.ua
+Без бренду — 10кВт (3 фази);10000 Вт (10 кВт);75 000 грн;use.com.ua
+DEYE SUN-10K-SG05LP3-EU-SM2 (3 фази);10000 Вт (10 кВт);78 800 грн;solar-markets.com.ua
+Deye 10кВт 48V (3 фази);10000 Вт (10 кВт);79 000 грн;use.com.ua
+Deye SUN-10K-SG05LP3-EU-SM2 (3 фази);10000 Вт (10 кВт);79 990 грн;ecodrive.in.ua
+SRNE ASP48100S200-H;10000 Вт (10 кВт);81 375 грн;220volt.com.ua
+DEYE SUN-10K-SG02LP1-EU-AM3;10000 Вт (10 кВт);86 339 грн;220volt.com.ua
+Victron Energy MultiPlus-II 48/10000/140-100/100;10000 Вт (10 кВт);86 933 грн;220volt.com.ua
+Deye SUN-10K-SG02LP1-EU-AM3;10000 Вт (10 кВт);93 990 грн;ecodrive.in.ua
+Deye SUN-10k-Sg04lp3-EU WiFi (3 фази);10000 Вт (10 кВт);95 344 грн;220volt.com.ua
+SRNE ASP48100SH3 (3 фази);10000 Вт (10 кВт);98 813 грн;220volt.com.ua
+Anern AN-SCI-EVO-10200;10200 Вт (10.2 кВт);24 990 грн;ecodrive.in.ua
+SKE SMART KEY ENERGY — SKE PH21-10.2K;10200 Вт (10.2 кВт);26 593 грн;220volt.com.ua
+Y&H / ECGSOLAX MPS-MAX 10.2 кВт (48V);10200 Вт (10.2 кВт);34 600 грн;antpower.com.ua
+SUMRY — 10кВт;10200 Вт (10.2 кВт);36 000 грн;use.com.ua
+PowerMR Pro 10200W (40-60V) POW-HVM10.2M;10200 Вт (10.2 кВт);38 800 грн;antpower.com.ua
+Anern — 48В;10200 Вт (10.2 кВт);68 300 грн;use.com.ua
+PowMr POW-HVM11KP 11 кВт (48V);11000 Вт (11 кВт);32 800 грн;antpower.com.ua
+Orbus — 11000 вт 48v;11000 Вт (11 кВт);33 500 грн;use.com.ua
+Без бренду — 11 квт 48в;11000 Вт (11 кВт);33 500 грн;use.com.ua
+DATOUBOSS 11 кВт 48В WiFi BMS;11000 Вт (11 кВт);33 800 грн;antpower.com.ua
+Orbus — 11 кВт;11000 Вт (11 кВт);34 000 грн;use.com.ua
+Techfine GA-11048JMH;11000 Вт (11 кВт);34 990 грн;ecodrive.in.ua
+TommaTech — 11 кВт;11000 Вт (11 кВт);40 000 грн;use.com.ua
+TommaTech — для сонячної станції;11000 Вт (11 кВт);74 900 грн;use.com.ua
+PowerMR POW-HVM12KP 12 кВт (48V);12000 Вт (12 кВт);34 700 грн;antpower.com.ua
+Must PV18-12048PRO;12000 Вт (12 кВт);38 990 грн;ecodrive.in.ua
+LUXPOWER SNA-EU 12000;12000 Вт (12 кВт);46 990 грн;ecodrive.in.ua
+LUXPOWER GEN Pro 12KW;12000 Вт (12 кВт);51 990 грн;ecodrive.in.ua
+GoodWe GW12K-ES-C10;12000 Вт (12 кВт);68 990 грн;ecodrive.in.ua
+PowerMR SunSmart 12KW (48V);12000 Вт (12 кВт);69 400 грн;antpower.com.ua
+PowerMR SunSmart 12KPL3 (48V (3 фази);12000 Вт (12 кВт);73 400 грн;antpower.com.ua
+Без бренду — 48V;12000 Вт (12 кВт);75 000 грн;use.com.ua
+Deye SUN-12K-SG04LP3-EU (3 фази);12000 Вт (12 кВт);75 490 грн;ecodrive.in.ua
+Solis — Тихий гібридний інвертор 12кВт (3 фази);12000 Вт (12 кВт);76 000 грн;use.com.ua
+GoodWe GW12K-ET-L-G10 (3 фази);12000 Вт (12 кВт);77 990 грн;ecodrive.in.ua
+Deye — 12 кВт 48V (3 фази);12000 Вт (12 кВт);79 000 грн;use.com.ua
+Deye 12 кВт (3 фази);12000 Вт (12 кВт);80 500 грн;use.com.ua
+Deye SUN-12K-SG02LP1-EU-AM3;12000 Вт (12 кВт);81 990 грн;ecodrive.in.ua
+Deye SUN-12K-SG05LP3-EU (3 фази);12000 Вт (12 кВт);82 990 грн;ecodrive.in.ua
+DEYE SUN-12K-SG05LP3-EU-SM2 (3 фази);12000 Вт (12 кВт);83 500 грн;solar-markets.com.ua
+DEYE SUN-12K-SG02LP1-EU-AM3;12000 Вт (12 кВт);85 500 грн;solar-markets.com.ua
+Deye SUN-12K-SG05LP3-EU-SM2 (3 фази);12000 Вт (12 кВт);87 947 грн;220volt.com.ua
+DEYE SUN-12K-SG02LP1-EU-AM3;12000 Вт (12 кВт);91 242 грн;220volt.com.ua
+Без бренду — 10кВт 48V (3 фази);12000 Вт (12 кВт);91 800 грн;use.com.ua
+Без бренду — 12кВт;12000 Вт (12 кВт);92 000 грн;use.com.ua
+Solis — 12 кВт 48 В (3 фази);12000 Вт (12 кВт);97 000 грн;use.com.ua
+Без бренду — трифазний 12кВт;12000 Вт (12 кВт);100 500 грн;use.com.ua
+Deye — трифазний 48В;12000 Вт (12 кВт);101 500 грн;use.com.ua
+SRNE ASP48120SH3 (3 фази);12000 Вт (12 кВт);101 742 грн;220volt.com.ua
+Deye SUN-12k-Sg04lp3-EU WiFi (3 фази);12000 Вт (12 кВт);103 243 грн;220volt.com.ua
+Deye AI-W5.1-12K-SG04LPP3-EU (3 фази);12000 Вт (12 кВт);115 542 грн;220volt.com.ua
+Solis S6-EH3P12K-L (3 фази);12000 Вт (12 кВт);121 273 грн;220volt.com.ua
+Victron Energy Quattro 48/15000 / 200-100 / 100 (3 фази);12000 Вт (12 кВт);159 105 грн;220volt.com.ua
+Victron Energy MultiPlus-II 48/15000/200-100 230V;12000 Вт (12 кВт);161 680 грн;220volt.com.ua
+Anern AN-SCI-EVO-13200;13200 Вт (13.2 кВт);28 990 грн;ecodrive.in.ua
+Powmr POW-HVM13.2M;13200 Вт (13.2 кВт);35 990 грн;ecodrive.in.ua
+LUXPOWER SNA2-EU-LT 14kW;14000 Вт (14 кВт);45 990 грн;ecodrive.in.ua
+LUXPOWER SNA-EU 14000;14000 Вт (14 кВт);46 990 грн;ecodrive.in.ua
+Luxpower SNA2-EU-LT 14K (14 кВт;14000 Вт (14 кВт);63 111 грн;220volt.com.ua
+Deye SUN-14K-SG05LP3-EU-SM2 Wi-Fi 220/380V (3 фази);14000 Вт (14 кВт);104 954 грн;220volt.com.ua
+Deye — 15кВт (3 фази);15000 Вт (15 кВт);72 700 грн;use.com.ua
+LUXPOWER TriP2-LB-3P 15K (3 фази);15000 Вт (15 кВт);78 990 грн;ecodrive.in.ua
+Deye — 15 кВт (3 фази);15000 Вт (15 кВт);89 000 грн;use.com.ua
+GoodWe GW15K-ET-L-G10 (3 фази);15000 Вт (15 кВт);89 990 грн;ecodrive.in.ua
+Must — 15 кВт (3 фази);15000 Вт (15 кВт);92 000 грн;use.com.ua
+Must — 15кВт (3 фази);15000 Вт (15 кВт);92 000 грн;use.com.ua
+Без бренду — 15кВт (3 фази);15000 Вт (15 кВт);93 500 грн;use.com.ua
+Deye SUN-15K-SG05LP3-EU-SM2 (3 фази);15000 Вт (15 кВт);99 990 грн;ecodrive.in.ua
+Deye SUN-15K-SG05LP3-EU-SM2 Wi-Fi 220/380V (3 фази);15000 Вт (15 кВт);115 771 грн;220volt.com.ua
+Solis S6-EH3P15K-L (3 фази);15000 Вт (15 кВт);152 910 грн;220volt.com.ua
+Deye SUN-16K-SG01LP1-EU;16000 Вт (16 кВт);95 990 грн;ecodrive.in.ua
+Deye SUN-16K-SG01LP1-EU;16000 Вт (16 кВт);99 278 грн;ua.axioma.energy
+Deye SUN-16K-SG05LP3-EU-SM2 Wi-Fi 220/380V (3 фази);16000 Вт (16 кВт);113 115 грн;220volt.com.ua
+DEYE SUN-16K-SG01LP1-EU (SUN-16K-SG02LP1-EU);16000 Вт (16 кВт);167 410 грн;220volt.com.ua
+Deye SUN-18K-SG05LP3-EU-SM2 Wi-Fi 220/380V (3 фази);18000 Вт (18 кВт);123 795 грн;220volt.com.ua
+LUXPOWER TriP2-LB-3P 20K (3 фази);20000 Вт (20 кВт);87 990 грн;ecodrive.in.ua
+GoodWe GW20K-ET-L-G10 (3 фази);20000 Вт (20 кВт);99 990 грн;ecodrive.in.ua
+Deye для квартири (3 фази);20000 Вт (20 кВт);114 000 грн;use.com.ua
+Deye SUN-20K-SG05LP3-EU-SM2 (3 фази);20000 Вт (20 кВт);118 990 грн;ecodrive.in.ua
+Deye 30 квт 48в (3 фази);20000 Вт (20 кВт);120 400 грн;use.com.ua
+Deye SUN-20K-SG05LP3-EU-SM2 Wi-Fi 220/380V (3 фази);20000 Вт (20 кВт);138 333 грн;220volt.com.ua
+Deye (3 фази);20000 Вт (20 кВт);147 400 грн;use.com.ua
+EcoFlow Power Ocean 30 kWh (трифазний);30000 Вт (30 кВт);268 999 грн;220volt.com.ua
+Без бренду — трифазний інвертор 50кВт;50000 Вт (50 кВт);262 200 грн;use.com.ua
