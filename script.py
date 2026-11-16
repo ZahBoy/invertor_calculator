@@ -168,3 +168,8 @@ def failure_probability(reliability, units):
 
 def failure_formula(reliability, units):
     return " × ".join([f"(1 − {plain_p(reliability)})"] * units)
+
+def evaluate(choice, budget):
+
+    failure = failure_probability(choice.reliability, choice.units)
+    return Option(choice, failure, failure * choice.spent, budget)
