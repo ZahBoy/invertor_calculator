@@ -3,6 +3,7 @@ import csv
 FILE_24 = "data/Invertor_24V.csv"
 FILE_48 = "data/Invertor_48V.csv"
 TEMPLATES = "template/"
+HORIZON = 5
 CATALOG = []
 
 
@@ -143,4 +144,14 @@ def suggest(models, units, budget):
     return min(fitting or models, key=lambda m: (abs(m.price * units - budget), m.price, m.name))
 
 CATALOG = load_catalog()
+
+#Мат розрахунок------------------------------------------------------------------------------
+
+def reliability_at(reliability, years):
+    if years <= 0 or reliability >= 1.0:
+        return 1.0
+    if reliability <= 0.0:
+        return 0.0
+    return reliability ** (years / HORIZON)
+
 
