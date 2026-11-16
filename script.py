@@ -1,6 +1,9 @@
 
 FILE_24 = "data/Invertor_24V.csv"
 FILE_48 = "data/Invertor_48V.csv"
+TEMPLATES = "template/"
+
+import csv
 
 class Model:        #моделька для будь-якого інвертора
     def __init__(self, name: str, power_w: int, price: int, source: str, voltage: int, id: int = 0):
@@ -77,4 +80,24 @@ def price_text(value):
 
 def percent(value):
     return f"{value * 100:.1f}".replace(".", ",") + "%"
+
+#ЧИТКА ТАБЛИЦЬ-----------------------------------------------------------------------------------
+
+
+def load_file(path, voltage):
+    with open(path, encoding="utf-8-sig", newline="") as f:
+
+        rows = []
+        for raw in csv.DictReader(f, delimiter=";"):
+            name = raw["Марка інвертора"].strip()
+            power = parse_power(raw["Потужність"])
+            price = parse_price(raw["Ціна"])
+            source = raw["Джерело (сайт)"].strip()
+
+            if name and power > 0 and price > 0:
+                rows.append(Model(name, power, price, source, voltage))
+
+    return rows
+
+
 
