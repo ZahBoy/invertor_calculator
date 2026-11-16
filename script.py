@@ -27,3 +27,13 @@ class Option:
         self.failure = failure
         self.risk = risk
         self.budget = budget
+
+#----------------------------------------------------------------------------------------------------
+
+def parse_number(value):
+    if value is None:
+        return None
+    text = str(value).strip().replace("\u00a0", "").replace(" ", "").replace("грн", "").replace("%", "")
+    if text == "" or text.lower() == "nan":
+        return None
+    return float(text.replace(",", "."))
