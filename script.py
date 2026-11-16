@@ -28,7 +28,7 @@ class Option:
         self.risk = risk
         self.budget = budget
 
-#----------------------------------------------------------------------------------------------------
+#БЛОК ФОРМАТУВАННЯ ЧИСЕЛ ДЛЯ НАДІЙНОСТІ ТА РОБОТИ З ТАБЛИЦЕЮ----------------------------------------------------------------------------------------------------
 
 def parse_number(value):
     if value is None:
@@ -47,4 +47,34 @@ def parse_reliability(value):
     if not 0.0 < number <= 1.0:
         raise ValueError(number)
     return number
+
+def parse_power(value):
+    digits = ""
+    for i in str(value or ""):
+        if i.isdigit():
+            digits += i
+        elif digits:
+            break
+    return int(digits) if digits else 0
+
+
+def parse_price(value):
+    try:
+        number = parse_number(value)
+    except ValueError:
+        return 0
+    return 0 if number is None else int(round(number))
+
+
+def money(value):
+    return f"{round(value):,.0f}".replace(",", " ") + " грн"
+
+
+
+def price_text(value):
+    return f"{value:,}".replace(",", " ")
+
+
+def percent(value):
+    return f"{value * 100:.1f}".replace(".", ",") + "%"
 
