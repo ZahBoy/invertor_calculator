@@ -189,3 +189,11 @@ def ranks(count):
     if count <= 1:
         return ["best"] * count
     return ["best"] + ["mid"] * (count - 2) + ["worst"]
+
+def curve(option: Option, points: int = 90):
+    span = HORIZON * 1.25
+    values = []
+    for step in range(points):
+        unit = reliability_at(option.choice.reliability, span * step / (points - 1))
+        values.append(1.0 - (1.0 - unit) ** option.choice.units)
+    return values
