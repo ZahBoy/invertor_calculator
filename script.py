@@ -34,6 +34,7 @@ class Option:
         self.failure = failure
         self.risk = risk
         self.budget = budget
+        self.over_budget = choice.spent > budget
 
 #БЛОК ФОРМАТУВАННЯ ЧИСЕЛ ДЛЯ НАДІЙНОСТІ ТА РОБОТИ З ТАБЛИЦЕЮ----------------------------------------------------------------------------------------------------
 
@@ -143,7 +144,6 @@ def suggest(models, units, budget):
     fitting = [m for m in models if m.price * units <= budget]
     return min(fitting or models, key=lambda m: (abs(m.price * units - budget), m.price, m.name))
 
-CATALOG = load_catalog()
 
 #Мат розрахунок------------------------------------------------------------------------------
 
@@ -175,7 +175,6 @@ def evaluate(choice, budget):
     return Option(choice, failure, failure * choice.spent, budget)
 
 def shown_options(options):
-    """Варіанти 2 і 3 — той самий інвертор: лишаємо один, із меншим ризиком."""
     if len(options) < 3:
         return options, False
     a, b = options[1].choice, options[2].choice
@@ -216,5 +215,22 @@ def read_choice(row: dict, power_w: int) -> Choice:
         return Choice("Noname", units, price, reliability, power_w)
     item = CATALOG[int(model_id)]
     return Choice(item.name, units, item.price, reliability, item.power_w)
+
+def calculate(band: int | None, budget: int, rows: list[dict]) -> dict:
+    if band is None:
+        raise ValueError("У базі цієї напруги немає інверторів.")
+    options = [evaluate(read_choice(row, band * 1000), budget) for row in rows]
+    visible, collapsed = shown_options(options)
+    ordered = sorted(visible, key=lambda o: (o.risk, o.choice.spent, o.choice.units))
+    return {
+        "collapsed": collapsed,
+        "ordered": list(zip(ordered, ranks(len(ordered)))),
+        "curves": [
+            (o.choice.units, f"{o.choice.units} × {o.choice.name}", curve(o), 1.0 - o.failure)
+            for o in visible
+        ],
+    }
+
+CATALOG = load_catalog()
 
 
