@@ -1,6 +1,6 @@
 
-FILE_24 = "Invertor_24V.csv"
-FILE_48 = "Invertor_48V.csv"
+FILE_24 = "data/Invertor_24V.csv"
+FILE_48 = "data/Invertor_48V.csv"
 
 class Model:        #моделька для будь-якого інвертора
     def __init__(self, name: str, power_w: int, price: int, source: str, voltage: int, id: int = 0):
@@ -37,3 +37,4 @@ def parse_number(value):
     if text == "" or text.lower() == "nan":
         return None
     return float(text.replace(",", "."))
+
