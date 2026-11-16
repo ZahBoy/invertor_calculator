@@ -197,3 +197,24 @@ def curve(option: Option, points: int = 90):
         unit = reliability_at(option.choice.reliability, span * step / (points - 1))
         values.append(1.0 - (1.0 - unit) ** option.choice.units)
     return values
+
+def read_choice(row: dict, power_w: int) -> Choice:
+    units = int(row["units"])
+    title = f"Варіант {units}"
+    model_id = row.get("id")
+    if model_id is None:
+        price = parse_price(row.get("price"))
+        if price <= 0:
+            raise ValueError(f"{title}: вкажіть ціну однієї штуки.")
+    try:
+        reliability = parse_reliability(row.get("reliability"))
+    except ValueError:
+        reliability = None
+    if reliability is None:
+        raise ValueError(f"{title}: вкажіть надійність від 0 до 1 (0,92 означає 92%).")
+    if model_id is None:
+        return Choice("Noname", units, price, reliability, power_w)
+    item = CATALOG[int(model_id)]
+    return Choice(item.name, units, item.price, reliability, item.power_w)
+
+
